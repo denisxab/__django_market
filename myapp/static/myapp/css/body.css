@@ -1,0 +1,115 @@
+.myform {
+    padding: 100px;
+}
+
+/*Товары*/
+.list-product {
+    padding-left: 15px;
+    padding-bottom: 100px;;
+    font-size: 20px;
+
+    width: 50%;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+.product-box {
+    padding: 10px;
+    margin: 10px;
+    background: var(--OneBg);
+    border: 3px solid var(--TwoBg);
+    border-radius: 4px;
+
+}
+
+/*END Товары*/
+
+/*Пагинатор*/
+.pagination {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 22px;
+}
+
+.href-item-product:link,
+.href-item-product:visited,
+.href-item-product:focus,
+.href-item-product:hover,
+.href-item-product:active {
+    color: var(--FourColorText);
+}
+
+.product-photo {
+    overflow: scroll;
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.product-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.bt-set-basket {
+    display: inline-block;
+    /*padding: 3px;*/
+    margin-top: 10px;
+    border-radius: 4px;
+    color: var(--TwoColorText);
+}
+
+
+.offer-page {
+    padding: 10px;
+    border: 3px solid var(--ThreeBg);
+    background: var(--TwoBg);
+    width: 60px;
+    height: 60px;
+}
+
+.offer-page:hover {
+    background: var(--OneBg);
+}
+
+.select-offer-page {
+    background: var(--OneBg);
+}
+
+/*END Пагинатор*/
+
+
+/*О товаре*/
+.detail-photo {
+    overflow: scroll;
+    width: 500px;
+    height: 500px;
+}
+
+.detail-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.detail-product {
+    padding: 40px 40px 300px;
+}
+
+.details_description {
+    border: 3px solid var(--TwoBg);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/*End о товаре*/
+
+
+.all-price {
+    text-align: right;
+    padding: 30px;
+    font-size: 32px;
+}

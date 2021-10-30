@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for foo in NameContext %}
+    {{ forloop.counter }}:{{ foo }}<br>
+{% endfor %}
+
+<br>
+
+<img src="{% static '/img/.png' %}" height="" alt="">
+
+<form method="post" name="NamePost"
+      action=""
+      accept-charset="UTF-8"
+      autocomplete="on"
+      target="_self"
+      enctype="application/x-www-form-urlencoded"> {% csrf_token %}
+
+    <label>
+        Поле1<br>
+        <input type="text" name="Text1">
+    </label><br>
+    <label>
+        Поле 2<br>
+        <input type="text" name="Text2">
+    </label><br>
+
+    <input type="submit">
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{% extends "myapp/index_main.html" %}
+{% load static %}
+
+{% block BODY %}
+    <div class="detail-product">
+
+
+        Цена: {{ product_obj.price }} руб<br>
+        {{ product_obj.name_product }}<br>
+        <div class="detail-photo">
+            <img src="{{ product_obj.image_product.url }}">
+        </div>
+
+
+        {{ product_obj.shot_description }}<br>
+        Звезд:
+        {% for star in "x"|rjust:product_obj.star %}
+            <img src="{% static 'myapp/img/star.png' %}"  width="30px" height="30px">
+        {% endfor %}
+        Рейтинг: {{ product_obj.rating }}
+        {% include  "myapp/button-basket.html" %}
+        <div class="details_description">
+            {{ product_obj.details_description }}
+        </div>
+
+
+    </div>
+{% endblock BODY %}

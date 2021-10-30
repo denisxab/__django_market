@@ -1,0 +1,7 @@
+{% extends "myapp/index_main.html" %}
+Любой текст из chaild.html
+{% block NameBlock %}
+     {{ block.super }}
+    <h4>Текст блока</h4>
+    {% include  "myapp/new_content.html"%}
+{% endblock NameBlock %}

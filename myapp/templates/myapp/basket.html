@@ -1,0 +1,30 @@
+{% extends "myapp/index_main.html" %}
+{% load static %}
+
+{% block BODY %}
+    {% if basket %}
+
+
+        <div class="all-price">
+            Сумма {{ basket.price }} руб
+        </div>
+
+        <div class="list-product" style="height: 1020px;">
+            <div class="product-box">
+                {{ basket.name_product }} <br>
+                <div class="product-photo">
+                    <img src="{{ basket.image_product.url }}">
+                </div>
+                {{ basket.price }} руб<br>
+            </div>
+        </div>
+
+    {% else %}
+        <div class="product-box" style="height: 1020px; text-align: center; padding-top: 100px; ">
+            Корзина пуста
+        </div>
+    {% endif %}
+
+
+
+{% endblock BODY %}

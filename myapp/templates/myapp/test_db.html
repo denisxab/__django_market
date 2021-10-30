@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+{% for foo in MyDataBase %}
+    {{ forloop.counter }}    {{ foo }}<br>
+{% endfor %}
+
+
+{% for foo in MyDataBase2 %}
+    {{ forloop.counter }}    {{ foo }}<br>
+{% endfor %}
+
+
+</body>
+</html>

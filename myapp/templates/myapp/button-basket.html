@@ -1,0 +1,12 @@
+<form method="post" name="button-basket"
+      action="{% url 'basket' %}"
+      accept-charset="UTF-8"
+      autocomplete="on"
+      target="_self"
+      enctype="application/x-www-form-urlencoded"> {% csrf_token %}
+
+    <input type="hidden" name="id-product" value="{{ product_obj.pk }}">
+    <input type="hidden" name="url-product" value="{{ request.get_full_path }}">
+    <input type="submit" value="В корзину" class="bt-set-basket">
+</form>
+

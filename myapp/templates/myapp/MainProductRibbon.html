@@ -1,0 +1,34 @@
+{% extends "myapp/index_main.html" %}
+{% load static %}
+
+{% block BODY %}
+    {{ block.super }}
+    <div class="list-product">
+
+
+        {% for product_obj in MyPaginator %}
+            <div class="product-box">
+                Цена: {{ product_obj.price }} руб<br>
+                {{ product_obj.name_product }}<br>
+                <a href="{% url "product"  product_obj.pk %}" class="href-item-product">
+                    <div class="product-photo">
+                        <img src="{{ product_obj.image_product.url }}"><br>
+                    </div>
+                </a>
+
+                {{ product_obj.shot_description }}<br>
+                Звезд:
+                {% for star in "x"|rjust:product_obj.star %}
+                    <img src="{% static 'myapp/img/star.png' %}" width="30px" height="30px">
+                {% endfor %}
+                Рейтинг: {{ product_obj.rating }}
+                {% include  "myapp/button-basket.html" %}
+            </div>
+
+        {% endfor %}
+
+        <div class="pagination">
+            {% include  "myapp/page.html" %}
+        </div>
+    </div>
+{% endblock BODY %}

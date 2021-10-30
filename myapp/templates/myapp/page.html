@@ -1,0 +1,47 @@
+<!--
+
+offer-page = Стиль для числа со страницей
+select-offer-page = Стиль для выделенного числа со страницей
+
+//-->
+
+
+{# Если есть хотябы больше одной страницы#}
+{% if page_obj.has_other_pages %}
+
+    {# Добавить кнопки перемещения страниц назад#}
+    {% if page_obj.has_previous %}
+        {# Первая страница #}
+        <div class="offer-page">
+            <a href="?page=1">1</a>
+        </div>
+        <div class="offer-page">
+            <a href="?page={{ page_obj.previous_page_number }}">&lt;</a>
+        </div>
+    {% endif %}
+
+    {% for p in page_obj.paginator.page_range %}
+        {# Выделеть выбранную страницу #}
+        {% if page_obj.number == p %}
+            <div class="offer-page select-offer-page">
+                {{ p }}
+            </div>
+            {# Не отображать страницы более N страниц #}
+        {% elif p >= page_obj.number|add:max_offer_page.0  and p <= page_obj.number|add:max_offer_page.1 %}
+            <div class="offer-page">
+                <a href="?page={{ p }} ">{{ p }} </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    {# Добавить кнопки перемещения страниц вперед#}
+    {% if page_obj.has_next %}
+        <div class="offer-page">
+            <a href="?page={{ page_obj.next_page_number }}">&gt;</a>
+        </div>
+        {# Последняя страница #}
+        <div class="offer-page">
+            <a href="?page={{ page_obj.paginator.num_pages }}" >{{ page_obj.paginator.num_pages }}</a>
+        </div>
+    {% endif %}
+{% endif %}

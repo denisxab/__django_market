@@ -1,0 +1,96 @@
+/*Общее*/
+:root {
+    --FontSize: 23px;
+    --OneColorText: #ffffff;
+    --TwoColorText: #2ea44f;
+    --ThreeColorText: #627597;
+    --FourColorText: #c7cdce;
+    --OneBg: #19253c;
+    --TwoBg: #627597;
+    --ThreeBg: #0c162d;
+    --OneFontFamily: 'XO_Oriel_CN_Nu', serif;
+}
+
+body {
+    background: var(--OneBg);
+    font-family: var(--OneFontFamily);
+    color: var(--OneColorText);
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'XO_Oriel_CN_Nu';
+    src: url('../fonts/XO_Oriel_CN_Nu.ttf') ;
+}
+
+@font-face {
+    font-family: 'XO_Courser_Nu';
+    src: url('../fonts/XO_Courser_Nu.ttf') ;
+}
+
+/*END Общее*/
+
+
+/*Меню*/
+.title-name {
+    padding-left: 10px;
+    background: var(--OneBg);
+    color: var(--TwoColorText);
+    font-family: var(--OneFontFamily);
+}
+
+
+.menu-box {
+    padding-left: 10px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: var(--OneColorText);
+}
+
+.menu-item > a:link,
+.menu-item > a:visited,
+.menu-item > a:focus,
+.menu-item > a:hover,
+.menu-item > a:active {
+    color: var(--OneColorText);
+    font-size: var(--FontSize);
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 3px;
+
+}
+
+.menu-item:hover {
+    background: var(--TwoBg);
+    border-radius: 4px;
+}
+
+/*END Меню*/
+
+
+/*Подвал*/
+footer {
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    background: var(--ThreeBg);
+    font-family: var(--OneFontFamily);
+    color: var(--ThreeColorText);
+    font-size: 16px;
+    text-align: center;
+}
+
+/*End Подвал*/
+
