@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="../../static/myapp/css/main.css"/>
     <meta charset="UTF-8">
     <title>Django Проект</title>
     {# BootstrapCDN  #}
@@ -11,22 +12,38 @@
     <link href="{% static 'myapp/css/main.css' %}" rel="stylesheet" type="text/css">
     {#    Стили для товаров #}
     <link href="{% static 'myapp/css/body.css' %}" rel="stylesheet" type="text/css">
+
+    {#  Имена для кореткной работы JavaSrcipt #}
+    <script>
+        const UrlBasketServer = "{{ UrlBasketServer }}";
+        const allProduct = "{{ allProduct }}"
+        const NameFlagAppend = "{{ NameFlagAppend }}"
+        const NameFlagDelete = "{{ NameFlagDelete }}"
+        const NameSelectId = "{{ NameSelectId }}"
+    </script>
     {# jquery   #}
     <script src="{% static 'myapp/js/jquery-3.6.0.min.js' %} " type="text/javascript"></script>
     {# Логика корзины #}
     <script src="{% static 'myapp/js/basket.js' %}" type="text/javascript" defer></script>
 </head>
 
+<body>
 <header>
     {% include  "myapp/head.html" %}
 </header>
 
-<body>
-{% block BODY %}
-
-{% endblock BODY %}
 
 
+<div class="body">
+    {% block BODY %}
+    {% endblock BODY %}
+</div>
+
+
+
+<a href="{% url 'basket' %}" id="basket-link">
+    {% include  "myapp/basket_box.html" %}
+</a>
 </body>
 
 <footer>

@@ -59,13 +59,14 @@
     margin-top: 10px;
     border-radius: 4px;
     color: var(--TwoColorText);
+    font-size: 23px;
 }
 
 .bt-delete-basket {
     display: inline-block;
     margin-top: 10px;
     border: var(--ColorError);
-    border-radius: 4px ;
+    border-radius: 4px;
     background: var(--ColorError);
 }
 
@@ -76,10 +77,12 @@
     background: var(--TwoBg);
     width: 60px;
     height: 60px;
+
 }
 
 .offer-page:hover {
     background: var(--OneBg);
+    color: var(--OneColorText);
 }
 
 .select-offer-page {

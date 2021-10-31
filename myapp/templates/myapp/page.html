@@ -12,12 +12,16 @@ select-offer-page = Стиль для выделенного числа со с�
     {# Добавить кнопки перемещения страниц назад#}
     {% if page_obj.has_previous %}
         {# Первая страница #}
-        <div class="offer-page">
-            <a href="?page=1">1</a>
-        </div>
-        <div class="offer-page">
-            <a href="?page={{ page_obj.previous_page_number }}">&lt;</a>
-        </div>
+        <a href="?page=1">
+            <div class="offer-page">
+                1
+            </div>
+        </a>
+        <a href="?page={{ page_obj.previous_page_number }}">
+            <div class="offer-page">
+                &lt;
+            </div>
+        </a>
     {% endif %}
 
     {% for p in page_obj.paginator.page_range %}
@@ -28,20 +32,28 @@ select-offer-page = Стиль для выделенного числа со с�
             </div>
             {# Не отображать страницы более N страниц #}
         {% elif p >= page_obj.number|add:max_offer_page.0  and p <= page_obj.number|add:max_offer_page.1 %}
-            <div class="offer-page">
-                <a href="?page={{ p }} ">{{ p }} </a>
-            </div>
+
+            <a href="?page={{ p }} ">
+                <div class="offer-page">
+                    {{ p }}
+                </div>
+            </a>
         {% endif %}
     {% endfor %}
 
     {# Добавить кнопки перемещения страниц вперед#}
     {% if page_obj.has_next %}
-        <div class="offer-page">
-            <a href="?page={{ page_obj.next_page_number }}">&gt;</a>
-        </div>
+        <a href="?page={{ page_obj.next_page_number }}">
+            <div class="offer-page">
+                &gt;
+            </div>
+        </a>
+
         {# Последняя страница #}
-        <div class="offer-page">
-            <a href="?page={{ page_obj.paginator.num_pages }}" >{{ page_obj.paginator.num_pages }}</a>
-        </div>
+        <a href="?page={{ page_obj.paginator.num_pages }}">
+            <div class="offer-page">
+                {{ page_obj.paginator.num_pages }}
+            </div>
+        </a>
     {% endif %}
 {% endif %}

@@ -15,7 +15,7 @@
                 <div id="{{ product_obj.pk }}" class="product-box">
                     {{ product_obj.name_product }} <br>
                     <div class="product-photo">
-                        <img src="{{ product_obj.image_product.url }}">
+                        <img src="{{ product_obj.image_product.url }}" alt="product_obj.name_product">
                     </div>
                     <div class="bottom-info-basket">
                         <span>{{ product_obj.price }}</span>x<span>
@@ -23,7 +23,7 @@
                             {{ product_obj.price|multiply:count_product }}
                         </span>=руб
                     </div>
-                    {% include  "myapp/button-delete-basket.html" %}
+                    {% include  "myapp/button_delete_basket.html" %}
                 </div>
             {% endfor %}
         </div>
@@ -36,13 +36,5 @@
         </div>
 
     {% endif %}
-
-
-    <script>
-        $(document).ready(function () {
-            deleteProduct("13");
-        });
-    </script>
-
 
 {% endblock BODY %}
