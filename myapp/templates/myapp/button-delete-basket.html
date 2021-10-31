@@ -1,0 +1,6 @@
+<form class="BasketForm" name="DeleteProduct" method="post" action="{% url 'basket' %}">
+    {% csrf_token %}
+    <input type="hidden" name="id-product" value="{{ product_obj.pk }}">
+    <input type="submit" class="bt-delete-basket" value="Удалить товар">
+</form>
+

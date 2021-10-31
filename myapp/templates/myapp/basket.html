@@ -1,26 +1,48 @@
 {% extends "myapp/index_main.html" %}
 {% load static %}
-
+{% load math %}
 
 {% block BODY %}
     {% if basket %}
+
         <div class="all-price">
-            Сумма {{ basket.price }} руб
+            Сумма {{ allPrice }} руб
         </div>
 
-        <div class="list-product" style="height: 1020px;">
-            <div class="product-box">
-                {{ basket.name_product }} <br>
-                <div class="product-photo">
-                    <img src="{{ basket.image_product.url }}">
+
+        <div class="list-product">
+            {% for product_obj,count_product in basket %}
+                <div id="{{ product_obj.pk }}" class="product-box">
+                    {{ product_obj.name_product }} <br>
+                    <div class="product-photo">
+                        <img src="{{ product_obj.image_product.url }}">
+                    </div>
+                    <div class="bottom-info-basket">
+                        <span>{{ product_obj.price }}</span>x<span>
+                        {{ count_product }}</span> : Всего <span>
+                            {{ product_obj.price|multiply:count_product }}
+                        </span>=руб
+                    </div>
+                    {% include  "myapp/button-delete-basket.html" %}
                 </div>
-                {{ basket.price }} руб<br>
-            </div>
+            {% endfor %}
         </div>
+
+
 
     {% else %}
         <div class="product-box" style="height: 1020px; text-align: center; padding-top: 100px; ">
             Корзина пуста
         </div>
+
     {% endif %}
+
+
+    <script>
+        $(document).ready(function () {
+            deleteProduct("13");
+        });
+    </script>
+
+
 {% endblock BODY %}

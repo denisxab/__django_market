@@ -9,6 +9,7 @@
     --TwoBg: #627597;
     --ThreeBg: #0c162d;
     --OneFontFamily: 'XO_Oriel_CN_Nu', serif;
+    --ColorError: #f36c6c;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
 
 
 .menu-box {
-    padding-left: 10px;
+
 }
 
 a {
