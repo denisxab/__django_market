@@ -4,8 +4,6 @@
 {% block BODY %}
     {{ block.super }}
     <div class="list-product">
-
-
         {% for product_obj in MyPaginator %}
             <div class="product-box">
                 Цена: {{ product_obj.price }} руб<br>
@@ -15,7 +13,6 @@
                         <img src="{{ product_obj.image_product.url }}"><br>
                     </div>
                 </a>
-
                 {{ product_obj.shot_description }}<br>
                 Звезд:
                 {% for star in "x"|rjust:product_obj.star %}
@@ -26,7 +23,6 @@
             </div>
 
         {% endfor %}
-
         <div class="pagination">
             {% include  "myapp/page.html" %}
         </div>

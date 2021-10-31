@@ -2,6 +2,7 @@ from pprint import pprint
 from typing import Any
 
 from django.core.handlers.wsgi import WSGIRequest
+from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views import View
@@ -104,8 +105,7 @@ class BasketView(View):
         """
         pprint(request.POST)
         request.session[BasketView.basket_name] = request.POST.get("id-product")
-        paths = request.POST.get("url-product")
-        return redirect(paths)
+        return HttpResponse(f"{request.POST}",status=200)
 
     def get_context_data(self, **kwargs) -> dict[str, Any]:
         """
