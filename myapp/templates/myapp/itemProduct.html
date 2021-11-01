@@ -1,0 +1,31 @@
+{% load static %}
+{% load  basket_tag %}
+<div class="product-box">
+    {# Цена и имя товара #}
+    Цена: {{ product_obj.price }} руб<br>
+    {{ product_obj.name_product }}<br>
+
+    {# Ссылка на товар в изображение #}
+    <a href="{% url "product"  product_obj.pk %}" class="href-item-product">
+        <div class="product-photo">
+            <img src="{{ product_obj.image_product.url }}" alt="#"><br>
+        </div>
+    </a>
+
+    {# Краткое описание #}
+    {{ product_obj.shot_description }}<br>
+
+    {# Ифнормация и кнопка `в корзину` на одном уровне #}
+    <div>
+        <div style="display: inline-block;width: 80%;">
+            Звезд:
+            {% for star in "x"|rjust:product_obj.star %}
+                <img src="{% static 'myapp/img/star.png' %}" width="30px" height="30px" alt="#">
+            {% endfor %}
+            Рейтинг: {{ product_obj.rating }}
+        </div>
+        <div style="display: inline-block;width: 19%; text-align: right">
+            {% BasketButtonAddProduct  product_obj.pk %}
+        </div>
+    </div>
+</div>

@@ -1,15 +1,16 @@
 {% extends "myapp/index_main.html" %}
 {% load static %}
 {% load math %}
+{% load basket_tag %}
 
 {% block BODY %}
     {% if basket %}
-
+        {# Общая сумма #}
         <div id="all-price">
             Сумма <span id="allPrice">{{ allPrice }}</span> руб
         </div>
 
-
+        {# Список товаро в корзине #}
         <div class="list-product">
             {% for product_obj,count_product in basket %}
                 <div id="{{ product_obj.pk }}" class="product-box">
@@ -23,20 +24,22 @@
                             {{ product_obj.price|multiply:count_product }}
                         </span>=руб
                     </div>
-                    {% include  "basket/button_delete_basket.html" %}
+
+                    {# Кнопка удаление товара из корзины #}
+                    {% BasketButtonDeleteProduct product_obj.pk %}
+
                 </div>
             {% endfor %}
         </div>
 
-
         <div id="pay-box">
-            {% include  "basket/button_pay_basket.html" %}
+            {# Кнопка оформить заказ #}
+            {% BasketButtonPayProduct %}
         </div>
 
     {% else %}
+        {# Пустая корзина #}
         {% include  "basket/basket_empty.html" %}
     {% endif %}
-
-
 
 {% endblock BODY %}

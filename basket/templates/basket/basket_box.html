@@ -1,9 +1,14 @@
 {% load static %}
-<div id="basket-box" hidden>
-    <div id="basket-content">
-        Корзина: <span id="countProductInBasket">0</span>
+{# Окно корзины #}
+<a href="{% url 'basket' %}" id="basket-link">
+    <div id="basket-box" hidden>
+        <div id="basket-content">
+            Корзина: <span id="countProductInBasket">0</span>
+        </div>
     </div>
-</div>
+</a>
+
+
 
 
 

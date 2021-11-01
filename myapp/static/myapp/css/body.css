@@ -124,7 +124,9 @@
 
 .details_description {
     border: 3px solid var(--TwoBg);
+    border-radius: 4px;
     padding: 10px;
+    font-size: 23px;
     margin-top: 30px;
 }
 

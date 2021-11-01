@@ -3,27 +3,11 @@
 
 
 {% block BODY %}
-
-
-    <script>
-
-    </script>
-
+    {{ block.super }}
     <div class="detail-product">
-        Цена: {{ product_obj.price }} руб<br>
-        {{ product_obj.name_product }}<br>
-        <div class="detail-photo">
-            <img src="{{ product_obj.image_product.url }}">
-        </div>
-
-
-        {{ product_obj.shot_description }}<br>
-        Звезд:
-        {% for star in "x"|rjust:product_obj.star %}
-            <img src="{% static 'myapp/img/star.png' %}" width="30px" height="30px" alt="#">
-        {% endfor %}
-        Рейтинг: {{ product_obj.rating }}
-        {% include "basket/button_add_basket.html" %}
+        {# Товар #}
+        {% include  "myapp/itemProduct.html" %}
+        {# Полное описание товара #}
         <div class="details_description">
             {{ product_obj.details_description }}
         </div>

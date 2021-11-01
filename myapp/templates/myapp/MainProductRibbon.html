@@ -4,33 +4,12 @@
 {% block BODY %}
     {{ block.super }}
     <div class="list-product">
+        {# Создаем ленту товаров #}
         {% for product_obj in MyPaginator %}
-            <div class="product-box">
-                Цена: {{ product_obj.price }} руб<br>
-                {{ product_obj.name_product }}<br>
-                <a href="{% url "product"  product_obj.pk %}" class="href-item-product">
-                    <div class="product-photo">
-                        <img src="{{ product_obj.image_product.url }}"><br>
-                    </div>
-                </a>
-                {{ product_obj.shot_description }}<br>
-
-                <div>
-                    <div style="display: inline-block;width: 80%;">
-                        Звезд:
-                        {% for star in "x"|rjust:product_obj.star %}
-                            <img src="{% static 'myapp/img/star.png' %}" width="30px" height="30px" alt="#">
-                        {% endfor %}
-                        Рейтинг: {{ product_obj.rating }}
-                    </div>
-                    <div style="display: inline-block;width: 19%; text-align: right">
-                        {% include  "basket/button_add_basket.html" %}
-                    </div>
-                </div>
-            </div>
-
-
+            {# Товар #}
+            {% include  "myapp/itemProduct.html" %}
         {% endfor %}
+        {# Пагинатор #}
         <div class="pagination">
             {% include  "myapp/page.html" %}
         </div>

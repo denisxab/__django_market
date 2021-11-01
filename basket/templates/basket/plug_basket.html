@@ -1,0 +1,11 @@
+{% load static %}
+{#    Стили для корзины #}
+<link href="{% static 'basket/css/basket.css' %}" rel="stylesheet" type="text/css">
+{#  Имена для кореткной работы Корзины `basket.js`#}
+<script>
+	const UrlBasketServer = "{% url 'basket_server' %}"; // Путь к серверу корзины
+</script>
+{# jquery   #}
+<script src="{% static 'basket/js/jquery-3.6.0.min.js' %} " type="text/javascript"></script>
+{# Логика корзины #}
+<script src="{% static 'basket/js/basket.js' %}" type="text/javascript" defer></script>

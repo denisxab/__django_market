@@ -1,4 +1,6 @@
 {% load static %}
+{% load math %}
+{% load basket_tag %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,37 +11,31 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     {# Стили для всей программы #}
     <link href="{% static 'myapp/css/main.css' %}" rel="stylesheet" type="text/css">
-    {#    Стили для товаров #}
+    {# Стили для товаров #}
     <link href="{% static 'myapp/css/body.css' %}" rel="stylesheet" type="text/css">
-    {#    Стили для корзины #}
-    <link href="{% static 'basket/css/basket.css' %}" rel="stylesheet" type="text/css">
-    {#  Имена для кореткной работы Корзины `basket.js`#}
-    <script>
-        const UrlBasketServer = "{{ UrlBasketServer }}"; // Путь к серверу корзины
-    </script>
-    {# jquery   #}
-    <script src="{% static 'myapp/js/jquery-3.6.0.min.js' %} " type="text/javascript"></script>
-    {# Логика корзины #}
-    <script src="{% static 'basket/js/basket.js' %}" type="text/javascript" defer></script>
+    {# Подключить карзину #}
+    {% BasketPlug %}
 </head>
 
 <body>
+{# Заголовок #}
 <header>
     {% include  "myapp/head.html" %}
 </header>
 
-
+{# Тело сайта #}
 <div class="body">
     {% block BODY %}
     {% endblock BODY %}
 </div>
 
 
-<a href="{% url 'basket' %}" id="basket-link">
-    {% include  "basket/basket_box.html" %}
-</a>
+{# Окно с корзиной #}
+{% BasketWindow %}
+
 </body>
 
+{# Подвал сайта #}
 <footer>
     {% include  "myapp/footer.html" %}
 </footer>

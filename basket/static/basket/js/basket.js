@@ -256,5 +256,9 @@ $(document).ready(function () {
 			ReloadPage();
 		}
 	}
+
+	function deleteAllProduct() {
+
+	}
 })
 
