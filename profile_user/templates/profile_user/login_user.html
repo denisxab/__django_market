@@ -1,0 +1,41 @@
+{% extends "myapp/index_main.html" %}
+{% load static %}
+{% block BODY %}
+    {{ block.super }}
+    {# Подклюить стили для формы регистрации #}
+    <link href="{% static 'profile_user/css/profile.css' %}" rel="stylesheet" type="text/css">
+
+    {# Блок с формой регистрации#}
+    <div class="register-box">
+
+        <div class="form-error">{{ form.non_field_errors }}</div>
+
+
+        <form method="post">
+            {% csrf_token %}
+            {% for f in form %}
+                {# Поле формы#}
+                <div class="form-profile-input">
+                    {# Названия поля#}
+                    <div class="form-label">
+                        <label for="{{ f.id_for_label }}"> {{ f.label }}:</label>
+                    </div>
+                    {# Поле ввода#}
+                    <div class="form-input">
+                        {{ f }}
+                    </div>
+                    {# Уведомление об ошибки заполнения поля формы#}
+                    <div class="form-error">
+                        {{ f.errors }}
+                    </div>
+                </div>
+            {% endfor %}
+
+            {# Кнопка отправки формы #}
+            <div class="profile-button">
+                <button type="submit">Войти</button>
+            </div>
+        </form>
+    </div>
+{% endblock BODY %}
+

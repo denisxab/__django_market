@@ -3,7 +3,6 @@ from typing import Any
 from django.core.handlers.wsgi import WSGIRequest
 from django.views.generic import ListView, DetailView
 
-from basket.views import BasketServer
 from myapp.models import Product
 
 

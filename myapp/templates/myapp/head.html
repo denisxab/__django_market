@@ -1,17 +1,41 @@
 {% load static %}
 <div class="head-box">
-<h1 class="title-name">Привет авантюрист</h1>
-<div class="menu-box">
-    <div class="menu-item">
-        <a href="{% url 'main_lent' %}">Товары</a>
-    </div>
+    <h1 class="title-name">Привет авантюрист</h1>
+    <div class="menu-box">
+        <div class="menu-item">
+            <a href="{% url 'main_lent' %}">Товары</a>
+        </div>
+        <div class="menu-item">
+            <a href="{% url 'basket' %}">Корзина</a>
+        </div>
 
-    <div class="menu-item">
-        <a href="{% url 'admin:index' %}">Админ панель</a>
-    </div>
 
-    <div class="menu-item">
-        <a href="{% url 'basket' %}">Корзина</a>
+        {# Если пользователь авторизован то показываем Профиль и Выход #}
+        {% if user.is_authenticated %}
+
+            {# Если это профиль админа показываем кнопку админ панели #}
+            {% if user.is_superuser %}
+                <div class="menu-item">
+                    <a href="{% url 'admin:index' %}">Админ панель</a>
+                </div>
+            {% endif %}
+
+            <div class="menu-item">
+                <a href="{% url 'profile_user' %}">Профиль</a>
+            </div>
+            <div class="menu-item">
+                <a href="{% url 'logout_user' %}">Выйти</a>
+            </div>
+
+        {% else %}
+            {# Если пользователь НЕ авторизован то показываем Вход и Регистрацию #}
+            <div class="menu-item">
+                <a href="{% url 'login_user' %}">Войти</a>
+            </div>
+            <div class="menu-item">
+                <a href="{% url 'register_user' %}">Регистрация</a>
+            </div>
+        {% endif %}
+
     </div>
-</div>
 </div>

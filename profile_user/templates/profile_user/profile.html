@@ -3,5 +3,19 @@
 
 {% block BODY %}
     {{ block.super }}
-    1,2,3
+    {# Подклюить стили для формы регистрации #}
+    <link href="{% static 'profile_user/css/profile.css' %}" rel="stylesheet" type="text/css">
+
+    {# Блок  пользоватлея #}
+    <div class="profile-box">
+        <p> Ник: {{ user.username }}</p>
+        <p> Имя: {{ user.last_name }}</p>
+        <p> Фамилия: {{ user.first_name }}</p>
+        <p> Поное имя: {{ user.get_full_name }}</p>
+        <p> Группа: {{ user.groups }}</p>
+        <p> Почта: {{ user.email }}</p>
+        <p> Время последнего входа: {{ user.last_login }}</p>
+        <p> Время создания профиля: {{ user.date_joined }}</p>
+        <p> Это профиль админа?: {{ user.is_superuser }}</p>
+    </div>
 {% endblock BODY %}

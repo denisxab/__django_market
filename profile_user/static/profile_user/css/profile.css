@@ -1,0 +1,53 @@
+.register-box {
+    font-size: 20px;
+    width: 50%;
+    max-width: 1000px;
+    min-width: 300px;
+    margin-left: 100px;
+}
+
+.profile-box {
+    font-size: 20px;
+    width: 50%;
+    max-width: 1000px;
+    min-width: 300px;
+    margin-left: 100px;
+}
+
+
+.form-error {
+    display: inline-block;
+    color: var(--ColorError);
+}
+
+.form-input {
+    display: inline-block;
+}
+
+.form-box {
+
+}
+
+.form-profile-input {
+    padding-top: 15px;
+}
+
+.profile-button {
+    margin-top: 30px;
+
+
+}
+
+.profile-button button {
+    padding: 8px;
+    border-radius: 4px;
+    border: var(--TwoColorText);
+    background: var(--TwoColorText);
+    color: var(--ThreeBg);
+}
+
+.profile-button button:hover {
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+
