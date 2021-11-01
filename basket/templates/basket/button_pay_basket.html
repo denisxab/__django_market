@@ -1,0 +1,4 @@
+<form class="BasketFormPay" method="post" action="{% url 'basket_server' %}">
+    {% csrf_token %}
+    <input type="submit" value="Оформить заказ">
+</form>

@@ -28,8 +28,7 @@ class MainProductRibbon(ListView):
 
         request.method == "GfET"
         """
-        resget = super().get(request, *args, **kwargs)
-        return resget
+        return super().get(request, *args, **kwargs)
 
     def get_context_data(self, **kwargs) -> dict[str, Any]:
         """

@@ -5,8 +5,8 @@
 {% block BODY %}
     {% if basket %}
 
-        <div class="all-price">
-            Сумма {{ allPrice }} руб
+        <div id="all-price">
+            Сумма <span id="allPrice">{{ allPrice }}</span> руб
         </div>
 
 
@@ -29,12 +29,14 @@
         </div>
 
 
-
-    {% else %}
-        <div class="product-box" style="height: 1020px; text-align: center; padding-top: 100px; ">
-            Корзина пуста
+        <div id="pay-box">
+            {% include  "basket/button_pay_basket.html" %}
         </div>
 
+    {% else %}
+        {% include  "basket/basket_empty.html" %}
     {% endif %}
+
+
 
 {% endblock BODY %}

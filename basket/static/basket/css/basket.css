@@ -1,0 +1,9 @@
+#pay-box{
+    text-align: right;
+    padding: 30px;
+    font-size: 32px;
+}
+
+#pay-box input{
+    padding: 8px;
+}

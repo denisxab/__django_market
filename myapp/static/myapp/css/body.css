@@ -18,6 +18,7 @@
     background: var(--OneBg);
     border: 3px solid var(--TwoBg);
     border-radius: 4px;
+    font-size: var(--FontSize);
 
 }
 
@@ -56,11 +57,19 @@
 .bt-set-basket {
     display: inline-block;
     margin-top: 10px;
-    border-radius: 4px;
+    border-radius: 24px;
+    padding: 10px;
+    border: var(--ThreeBg);
+    background: var(--ThreeBg);
     color: var(--TwoColorText);
-    font-size: 23px;
+    font-size: 25px;
 }
+.bt-set-basket:hover{
+    border: var(--TwoColorText);
+    background: var(--TwoColorText);
+    color: var(--ThreeBg);
 
+}
 .bt-delete-basket {
     display: inline-block;
     margin-top: 10px;
@@ -92,7 +101,7 @@
 
 
 /*О товаре*/
-.all-price {
+#all-price {
     text-align: right;
     padding: 30px;
     font-size: 32px;
