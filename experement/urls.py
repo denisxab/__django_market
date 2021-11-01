@@ -21,7 +21,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include("myapp.urls"))
+    path('', include("myapp.urls")),
+    path('basket/', include("basket.urls")),
 ]
 
 handler404 = lambda request, exception: HttpResponse(f"Станица не найдена {exception}", status=404)
