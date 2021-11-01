@@ -37,8 +37,6 @@ class MainProductRibbon(ListView):
 		context = super().get_context_data(**kwargs)
 		# СВОЙ переменная, которую можно использовать для ограничения предложенных страниц
 		context["max_offer_page"] = (-2, 2)
-		# Контекст для корзины
-		BasketServer.get_context_data(context)  # Получить необходимый контекст для корзины
 		return context
 
 
@@ -69,5 +67,4 @@ class ProductDetailView(DetailView):
 		В этом методе формировать `context` для шаблон `html`
 		"""
 		context = super().get_context_data(**kwargs)
-		BasketServer.get_context_data(context)  # Получить необходимый контекст для корзины
 		return context

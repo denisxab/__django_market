@@ -1,16 +1,10 @@
-import json
 from pprint import pprint
 from typing import Any, Union, NamedTuple
-
 import pydantic
 from django.core.handlers.wsgi import WSGIRequest
 from django.http import HttpResponse
 from django.shortcuts import render
-
-# Create your views here.
-from django.urls import reverse
 from django.views import View
-
 from myapp.models import Product
 
 
@@ -24,6 +18,11 @@ class BasketServer(View):
 	model = Product  # Какую модель используем
 	
 	def get(self, request: WSGIRequest):
+		"""
+		В методе обрабатывается HEAD запрос
+
+		request.method == "HEAD"
+		"""
 		# Отправляем корзину товаров.
 		return HttpResponse(self.getBasketFromSession(request).json(), status=200)
 	
@@ -100,6 +99,9 @@ class BasketServer(View):
 				self.allProduct -= 1  # Прибавляем один товар в общее число товаров.
 	
 	class SendPayContent(NamedTuple):
+		"""
+		Структура для хранения оформленного заказа
+		"""
 		id_product: int
 		name_product: str
 		count_product: int
@@ -145,10 +147,6 @@ class BasketServer(View):
 	def saveBasketInSession(self, basket_json, request: WSGIRequest):
 		# Сохраняем изменения в сессию пользователя.
 		request.session[self.basket_name] = basket_json.json()
-	
-	@classmethod
-	def get_context_data(cls, context):
-		context["UrlBasketServer"] = reverse("basket_server")
 
 
 class BasketView(View):
@@ -192,5 +190,4 @@ class BasketView(View):
 				"basket"  : all_product,
 				"allPrice": allPrice,
 		}
-		BasketServer.get_context_data(context)  # Получить необходимый контекст для корзины
 		return context

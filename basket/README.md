@@ -1,6 +1,6 @@
 
 Подключить корзину к проекту
-0. Используем модель Бд
+1. Используем модель Бд
     ```python
     class Product(models.Model):
         objects = None
@@ -58,22 +58,6 @@
             ordering = ["-price", ]  # Сортировать записи по указанным столбцам (можно указывать несколько столбцов)
     ```
 
-1. Добавить в класс представления контекст из корзины.
-    ```python
-    from typing import Any
-    from basket.views import BasketServer
-    from django.views.generic import ListView
-    
-    class ProductDetailView(ListView):
-        def get_context_data(self, **kwargs) -> dict[str, Any]:
-            """
-            В этом методе формировать `context` для шаблон `html`
-            """
-            context = super().get_context_data(**kwargs)
-            # Получить необходимый контекст для корзины
-            BasketServer.get_context_data(context)# !!!
-            return context
-    ``` 
 2. В главный `Html` шаблон добавить - `JavaScript` скрипты для корзины.
     ```html
     {% load basket_tag %}
