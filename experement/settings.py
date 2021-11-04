@@ -14,6 +14,7 @@ import os
 from pathlib import Path
 
 import __dont_publish
+
 __dont_publish.run()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -34,44 +35,44 @@ ALLOWED_HOSTS = ["*"]
 
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'myapp.apps.MyappConfig',
-    'basket.apps.BasketConfig',
-    'profile_user.apps.ProfileUserConfig',
-    'debug_toolbar',
+		'django.contrib.admin',
+		'django.contrib.auth',
+		'django.contrib.contenttypes',
+		'django.contrib.sessions',
+		'django.contrib.messages',
+		'django.contrib.staticfiles',
+		'myapp.apps.MyappConfig',
+		'basket.apps.BasketConfig',
+		'profile_user.apps.ProfileUserConfig',
+		'debug_toolbar',
 ]
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+		'django.middleware.security.SecurityMiddleware',
+		'django.contrib.sessions.middleware.SessionMiddleware',
+		'django.middleware.common.CommonMiddleware',
+		'django.middleware.csrf.CsrfViewMiddleware',
+		'django.contrib.auth.middleware.AuthenticationMiddleware',
+		'django.contrib.messages.middleware.MessageMiddleware',
+		'django.middleware.clickjacking.XFrameOptionsMiddleware',
+		'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'experement.urls'
 
 TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-            ],
-        },
-    },
+		{
+				'BACKEND' : 'django.template.backends.django.DjangoTemplates',
+				'DIRS'    : [],
+				'APP_DIRS': True,
+				'OPTIONS' : {
+						'context_processors': [
+								'django.template.context_processors.debug',
+								'django.template.context_processors.request',
+								'django.contrib.auth.context_processors.auth',
+								'django.contrib.messages.context_processors.messages',
+						],
+				},
+		},
 ]
 
 WSGI_APPLICATION = 'experement.wsgi.application'
@@ -80,28 +81,38 @@ WSGI_APPLICATION = 'experement.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+		'default': {
+				'ENGINE'  : 'django.db.backends.postgresql_psycopg2',  # Адаптер
+				'NAME'    : 'test_db',  # Имя Бд
+				'USER'    : 'myname',  # Имя пользователя
+				'PASSWORD': '123',  # Пароль пользователя
+				'HOST'    : '127.0.0.1',  # Хост, мы будем использовать локальный сервер.
+				'PORT'    : 5432,  # Порт для подключения. По умолчанию это 5432
+		},
+		
+		'sqlite' : {
+				'ENGINE': 'django.db.backends.sqlite3',
+				'NAME'  : BASE_DIR / 'db.sqlite3',
+		}
+	
 }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
+		{
+				'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+		},
+		{
+				'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+		},
+		{
+				'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+		},
+		{
+				'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+		},
 ]
 
 # Internationalization
@@ -121,13 +132,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 INTERNAL_IPS = [
-    '127.0.0.1',
+		'127.0.0.1',
 ]
 
 STATIC_URL = '/static/'  # URL-адрес для использования при обращении к статическим файлам, расположенным в STATIC_ROOT.
 STATIC_ROOT = os.path.join(BASE_DIR, "static/")  # Путь к общей статической папки.
 STATICFILES_DIRS = [
-    # os.path.join(BASE_DIR, "static"),
+		# os.path.join(BASE_DIR, "static"),
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')  # Имя папки в корневом каталоге

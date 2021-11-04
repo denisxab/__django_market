@@ -18,4 +18,14 @@
         <p> Время создания профиля: {{ user.date_joined }}</p>
         <p> Это профиль админа?: {{ user.is_superuser }}</p>
     </div>
+
+    <form method="post" name="ImageUser"
+          enctype="multipart/form-data"> {% csrf_token %}
+
+    <input type="file" name="FilePhoto">
+    <input type="submit">
+
+
+    </form>
+
 {% endblock BODY %}

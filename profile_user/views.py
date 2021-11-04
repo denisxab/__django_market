@@ -3,6 +3,7 @@ from typing import Any
 from django.contrib.auth import logout, login
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.views import LoginView
+from django.core.files.storage import FileSystemStorage
 from django.core.handlers.wsgi import WSGIRequest
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
@@ -34,7 +35,16 @@ class ProfileView(LoginRequiredMixin, View):
 		В методе обрабатывается POST запрос
 		request.method == "POST"
 		"""
-		...
+		
+		print(request.FILES)
+		fs = FileSystemStorage(location="myapp")
+		fs.save(name=request.FILES["FilePhoto"].name, content=request.FILES["FilePhoto"])
+		
+		# with open("Myfile.jpg","wb") as _file:
+		# 	for chunk in request.FILES["FilePhoto"].chunks():
+		# 		_file.write(chunk)
+		
+		return redirect("profile_user")
 	
 	def get_context_data(self) -> dict[str, Any]:
 		"""
@@ -100,6 +110,6 @@ class RegisterUserViewCreateView(CreateView):
 		"""
 		Вызнается при успешной валидации формы
 		"""
-		user = form.save() # Сохраняем форму
-		login(self.request, user) # Входим в профиль
-		return redirect("profile_user") # Перенаправляем на станицу
+		user = form.save()  # Сохраняем форму
+		login(self.request, user)  # Входим в профиль
+		return redirect("profile_user")  # Перенаправляем на станицу

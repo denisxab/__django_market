@@ -1,6 +1,7 @@
 from typing import Any
 
 from django.core.handlers.wsgi import WSGIRequest
+from django.http import HttpResponse
 from django.views.generic import ListView, DetailView
 
 from myapp.models import Product
@@ -27,7 +28,11 @@ class MainProductRibbon(ListView):
 
 		request.method == "GfET"
 		"""
-		return super().get(request, *args, **kwargs)
+
+		
+		response = super().get(request, *args, **kwargs)
+		response.set_cookie('kettt', '1231233123',max_age=5,secure=True)
+		return response
 	
 	def get_context_data(self, **kwargs) -> dict[str, Any]:
 		"""

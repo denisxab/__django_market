@@ -8,7 +8,7 @@ from .models import NameDataBase, Product
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         "name_product", "price", "star",
-        "rating", "get_html_photo")  # Имя столбца которые мы хотим видеть в админ панели
+        "rating", "get_html_photo", )  # Имя столбца которые мы хотим видеть в админ панели
     list_display_links = ("name_product",)  # Указать имя столбца через которое можно перейти редактированию записи
 
     search_fields = ("name_product", "price")  # Указать по каким столбцам можно делать поиск
@@ -30,7 +30,7 @@ class ProductAdmin(admin.ModelAdmin):
 
     readonly_fields = ("data_create",
                        "data_update",
-                       "get_html_photo"
+                       "get_html_photo",
                        )  # Поля которые можно только смотреть, но не редактировать (нужно потом добавить в fields)
 
     fields = ("name_product",
@@ -42,7 +42,8 @@ class ProductAdmin(admin.ModelAdmin):
               "shot_description",
               "details_description",
               "data_create",
-              "data_update")  # Порядок отображения полей при редактировании записи
+              "data_update",
+              )  # Порядок отображения полей при редактировании записи
 
 
 # редактирования

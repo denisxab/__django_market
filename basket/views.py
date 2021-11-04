@@ -3,7 +3,7 @@ from typing import Any, Union, NamedTuple
 import pydantic
 from django.core.handlers.wsgi import WSGIRequest
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views import View
 from myapp.models import Product
 

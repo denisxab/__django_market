@@ -18,6 +18,11 @@ body {
     color: var(--OneColorText);
     /*height: 100%;*/
     width: 100%;
+    font-size: 27px;
+    line-height: 42px;
+    letter-spacing: 0.039em;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .body {
