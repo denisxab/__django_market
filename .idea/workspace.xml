@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50ebb090-fa70-42cc-85fc-f84c7e3ff99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dump.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gunicorn/gunicorn.conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/undex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dimp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experement/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/experement/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experement/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/experement/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0002_testdb_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0003_auto_20211025_1635.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0004_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0005_alter_product_name_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0006_alter_product_name_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0007_alter_product_name_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0008_alter_product_name_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0009_auto_20211025_2015.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0010_alter_product_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0011_auto_20211025_2035.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0012_auto_20211027_1235.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0013_alter_product_star.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0014_alter_product_shot_description.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0015_auto_20211029_1605.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0016_auto_20211029_1619.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0017_alter_product_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0018_product_image_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0019_auto_20211104_1105.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0020_alter_product_test_binary_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0021_alter_product_test_binary_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/0022_remove_product_test_binary_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20x8mweW8dzns7pQRO79be3VNSx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql&#10;sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/db" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="django_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="django_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="django_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="django_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="django_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="django_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="django_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="django_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="django_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50ebb090-fa70-42cc-85fc-f84c7e3ff99d" name="Default Changelist" comment="" />
+      <created>1636975040139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636975040139</updated>
+      <workItem from="1636975041345" duration="2025000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2646" y="266" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636977067286">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2646" y="266" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636977067286" />
+    <state x="2333" y="493" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636975165157">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2333" y="493" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636975165157" />
+    <state x="2347" y="447" key="FileChooserDialogImpl" timestamp="1636977063791">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2347" y="447" key="FileChooserDialogImpl/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636977063791" />
+    <state width="1234" height="386" key="GridCell.Tab.0.bottom" timestamp="1636975925681">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1234" height="386" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636975925681" />
+    <state width="1234" height="386" key="GridCell.Tab.0.center" timestamp="1636975925681">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1234" height="386" key="GridCell.Tab.0.center/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636975925681" />
+    <state width="1234" height="386" key="GridCell.Tab.0.left" timestamp="1636975925681">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1234" height="386" key="GridCell.Tab.0.left/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636975925681" />
+    <state width="1234" height="386" key="GridCell.Tab.0.right" timestamp="1636975925681">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1234" height="386" key="GridCell.Tab.0.right/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636975925681" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1636976381010">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636976381010" />
+    <state x="2300" y="339" key="SettingsEditor" timestamp="1636976648275">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2300" y="339" key="SettingsEditor/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636976648275" />
+    <state x="2643" y="579" width="312" height="263" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1636976444484">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2643" y="579" width="312" height="263" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636976444484" />
+    <state x="2464" y="443" width="587" height="570" key="find.popup" timestamp="1636977012149">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2464" y="443" width="587" height="570" key="find.popup/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636977012149" />
+    <state x="2420" y="318" width="672" height="678" key="search.everywhere.popup" timestamp="1636976998731">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2420" y="318" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636976998731" />
+    <state x="2290" y="604" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1636975564420">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2290" y="604" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.2560.1440/0.0.1920.1080@1920.0.2560.1440" timestamp="1636975564420" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/django_market$manage.coverage" NAME="manage Coverage Results" MODIFIED="1636977136517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

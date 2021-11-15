@@ -1,0 +1,1295 @@
+[2021-11-07 20:11:58 +0300] [32186] [INFO] Starting gunicorn 20.1.0
+[2021-11-07 20:11:58 +0300] [32186] [INFO] Listening at: unix:/run/gunicorn.sock (32186)
+[2021-11-07 20:11:58 +0300] [32186] [INFO] Using worker: sync
+[2021-11-07 20:11:58 +0300] [32192] [INFO] Booting worker with pid: 32192
+[2021-11-07 20:11:58 +0300] [32193] [INFO] Booting worker with pid: 32193
+[2021-11-07 20:11:58 +0300] [32194] [INFO] Booting worker with pid: 32194
+[2021-11-07 20:12:04 +0300] [32186] [INFO] Handling signal: term
+[2021-11-07 17:12:04 +0000] [32193] [INFO] Worker exiting (pid: 32193)
+[2021-11-07 17:12:04 +0000] [32192] [INFO] Worker exiting (pid: 32192)
+[2021-11-07 17:12:04 +0000] [32194] [INFO] Worker exiting (pid: 32194)
+[2021-11-07 20:12:04 +0300] [32186] [INFO] Shutting down: Master
+[2021-11-07 20:12:04 +0300] [32229] [INFO] Starting gunicorn 20.1.0
+[2021-11-07 20:12:04 +0300] [32229] [INFO] Listening at: unix:/run/gunicorn.sock (32229)
+[2021-11-07 20:12:04 +0300] [32229] [INFO] Using worker: sync
+[2021-11-07 20:12:04 +0300] [32235] [INFO] Booting worker with pid: 32235
+[2021-11-07 20:12:04 +0300] [32236] [INFO] Booting worker with pid: 32236
+[2021-11-07 20:12:04 +0300] [32237] [INFO] Booting worker with pid: 32237
+[2021-11-07 17:20:09 +0000] [32235] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.conf.py modified
+[2021-11-07 17:20:09 +0000] [32235] [INFO] Worker exiting (pid: 32235)
+[2021-11-07 17:20:10 +0000] [32236] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.conf.py modified
+[2021-11-07 17:20:10 +0000] [32236] [INFO] Worker exiting (pid: 32236)
+[2021-11-07 17:20:10 +0000] [32237] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.conf.py modified
+[2021-11-07 17:20:10 +0000] [32237] [INFO] Worker exiting (pid: 32237)
+[2021-11-07 20:20:10 +0300] [32957] [INFO] Booting worker with pid: 32957
+[2021-11-07 20:20:10 +0300] [32958] [INFO] Booting worker with pid: 32958
+[2021-11-07 20:20:10 +0300] [32959] [INFO] Booting worker with pid: 32959
+[2021-11-07 17:21:47 +0000] [32957] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.conf.py modified
+[2021-11-07 17:21:47 +0000] [32957] [INFO] Worker exiting (pid: 32957)
+[2021-11-07 20:21:47 +0300] [33023] [INFO] Booting worker with pid: 33023
+[2021-11-07 17:21:47 +0000] [32958] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.conf.py modified
+[2021-11-07 17:21:47 +0000] [32958] [INFO] Worker exiting (pid: 32958)
+[2021-11-07 17:21:47 +0000] [32959] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.conf.py modified
+[2021-11-07 17:21:47 +0000] [32959] [INFO] Worker exiting (pid: 32959)
+[2021-11-07 20:21:47 +0300] [33024] [INFO] Booting worker with pid: 33024
+[2021-11-07 20:21:47 +0300] [33025] [INFO] Booting worker with pid: 33025
+[2021-11-07 17:24:30 +0000] [33023] [INFO] Worker exiting (pid: 33023)
+[2021-11-07 17:24:30 +0000] [33025] [INFO] Worker exiting (pid: 33025)
+[2021-11-07 17:24:30 +0000] [33024] [INFO] Worker exiting (pid: 33024)
+[2021-11-07 20:24:30 +0300] [32229] [INFO] Handling signal: term
+[2021-11-07 20:24:30 +0300] [32229] [WARNING] Worker with pid 33025 was terminated due to signal 15
+[2021-11-07 20:24:30 +0300] [32229] [WARNING] Worker with pid 33023 was terminated due to signal 15
+[2021-11-07 20:24:30 +0300] [32229] [WARNING] Worker with pid 33024 was terminated due to signal 15
+[2021-11-07 20:24:30 +0300] [32229] [INFO] Shutting down: Master
+[2021-11-07 20:24:31 +0300] [33418] [INFO] Starting gunicorn 20.1.0
+[2021-11-07 20:24:31 +0300] [33418] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (33418)
+[2021-11-07 20:24:31 +0300] [33418] [INFO] Using worker: sync
+[2021-11-07 20:24:31 +0300] [33436] [INFO] Booting worker with pid: 33436
+[2021-11-07 20:24:31 +0300] [33437] [INFO] Booting worker with pid: 33437
+[2021-11-07 20:24:31 +0300] [33438] [INFO] Booting worker with pid: 33438
+[2021-11-07 17:24:33 +0000] [33436] [INFO] Worker exiting (pid: 33436)
+[2021-11-07 20:24:33 +0300] [33418] [INFO] Handling signal: term
+[2021-11-07 17:24:33 +0000] [33437] [INFO] Worker exiting (pid: 33437)
+[2021-11-07 17:24:33 +0000] [33438] [INFO] Worker exiting (pid: 33438)
+[2021-11-07 20:24:33 +0300] [33418] [INFO] Shutting down: Master
+[2021-11-07 20:24:33 +0300] [33452] [INFO] Starting gunicorn 20.1.0
+[2021-11-07 20:24:33 +0300] [33452] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (33452)
+[2021-11-07 20:24:33 +0300] [33452] [INFO] Using worker: sync
+[2021-11-07 20:24:33 +0300] [33470] [INFO] Booting worker with pid: 33470
+[2021-11-07 20:24:33 +0300] [33471] [INFO] Booting worker with pid: 33471
+[2021-11-07 20:24:33 +0300] [33472] [INFO] Booting worker with pid: 33472
+[2021-11-07 20:25:04 +0000] [33471] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-07 20:25:04 +0000] [33471] [INFO] Worker exiting (pid: 33471)
+[2021-11-07 20:25:05 +0000] [33470] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-07 20:25:05 +0000] [33470] [INFO] Worker exiting (pid: 33470)
+[2021-11-07 23:25:05 +0300] [46157] [INFO] Booting worker with pid: 46157
+[2021-11-07 23:25:05 +0300] [46158] [INFO] Booting worker with pid: 46158
+[2021-11-07 20:25:05 +0000] [33472] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-07 20:25:05 +0000] [33472] [INFO] Worker exiting (pid: 33472)
+[2021-11-07 23:25:05 +0300] [46160] [INFO] Booting worker with pid: 46160
+[2021-11-07 20:25:23 +0000] [46157] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.conf.py modified
+[2021-11-07 20:25:23 +0000] [46157] [INFO] Worker exiting (pid: 46157)
+[2021-11-07 23:25:23 +0300] [46183] [INFO] Booting worker with pid: 46183
+[2021-11-07 20:25:23 +0000] [46158] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.conf.py modified
+[2021-11-07 20:25:23 +0000] [46158] [INFO] Worker exiting (pid: 46158)
+[2021-11-07 23:25:23 +0300] [46184] [INFO] Booting worker with pid: 46184
+[2021-11-07 20:25:23 +0000] [46160] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.conf.py modified
+[2021-11-07 20:25:23 +0000] [46160] [INFO] Worker exiting (pid: 46160)
+[2021-11-07 23:25:23 +0300] [46186] [INFO] Booting worker with pid: 46186
+[2021-11-07 23:31:54 +0300] [33452] [INFO] Handling signal: term
+[2021-11-07 20:31:54 +0000] [46183] [INFO] Worker exiting (pid: 46183)
+[2021-11-07 20:31:54 +0000] [46184] [INFO] Worker exiting (pid: 46184)
+[2021-11-07 20:31:54 +0000] [46186] [INFO] Worker exiting (pid: 46186)
+[2021-11-07 23:31:54 +0300] [33452] [INFO] Shutting down: Master
+[2021-11-07 23:32:38 +0300] [47083] [INFO] Starting gunicorn 20.1.0
+[2021-11-07 23:32:38 +0300] [47083] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (47083)
+[2021-11-07 23:32:38 +0300] [47083] [INFO] Using worker: sync
+[2021-11-07 23:32:38 +0300] [47084] [INFO] Booting worker with pid: 47084
+[2021-11-07 23:32:38 +0300] [47085] [INFO] Booting worker with pid: 47085
+[2021-11-07 23:32:38 +0300] [47086] [INFO] Booting worker with pid: 47086
+[2021-11-07 23:32:44 +0300] [47083] [INFO] Handling signal: term
+[2021-11-07 20:32:44 +0000] [47084] [INFO] Worker exiting (pid: 47084)
+[2021-11-07 20:32:44 +0000] [47086] [INFO] Worker exiting (pid: 47086)
+[2021-11-07 20:32:44 +0000] [47085] [INFO] Worker exiting (pid: 47085)
+[2021-11-07 23:32:44 +0300] [47083] [INFO] Shutting down: Master
+[2021-11-07 23:32:47 +0300] [47110] [INFO] Starting gunicorn 20.1.0
+[2021-11-07 23:32:47 +0300] [47110] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (47110)
+[2021-11-07 23:32:47 +0300] [47110] [INFO] Using worker: sync
+[2021-11-07 23:32:47 +0300] [47111] [INFO] Booting worker with pid: 47111
+[2021-11-07 23:32:47 +0300] [47112] [INFO] Booting worker with pid: 47112
+[2021-11-07 23:32:48 +0300] [47113] [INFO] Booting worker with pid: 47113
+[2021-11-07 21:08:39 +0000] [47113] [INFO] Worker exiting (pid: 47113)
+[2021-11-07 21:08:39 +0000] [47112] [INFO] Worker exiting (pid: 47112)
+[2021-11-07 21:08:39 +0000] [47111] [INFO] Worker exiting (pid: 47111)
+[2021-11-08 00:08:39 +0300] [47110] [INFO] Handling signal: term
+[2021-11-08 00:08:39 +0300] [47110] [WARNING] Worker with pid 47112 was terminated due to signal 15
+[2021-11-08 00:08:39 +0300] [47110] [WARNING] Worker with pid 47113 was terminated due to signal 15
+[2021-11-08 00:08:39 +0300] [47110] [WARNING] Worker with pid 47111 was terminated due to signal 15
+[2021-11-08 00:08:39 +0300] [47110] [INFO] Shutting down: Master
+[2021-11-08 11:25:30 +0300] [587] [INFO] Starting gunicorn 20.1.0
+[2021-11-08 11:25:30 +0300] [587] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (587)
+[2021-11-08 11:25:30 +0300] [587] [INFO] Using worker: sync
+[2021-11-08 11:25:30 +0300] [762] [INFO] Booting worker with pid: 762
+[2021-11-08 11:25:30 +0300] [778] [INFO] Booting worker with pid: 778
+[2021-11-08 11:25:30 +0300] [779] [INFO] Booting worker with pid: 779
+[2021-11-08 14:27:11 +0300] [587] [CRITICAL] WORKER TIMEOUT (pid:762)
+[2021-11-08 14:27:11 +0300] [587] [CRITICAL] WORKER TIMEOUT (pid:778)
+[2021-11-08 14:27:11 +0300] [587] [CRITICAL] WORKER TIMEOUT (pid:779)
+[2021-11-08 11:27:11 +0000] [762] [INFO] Worker exiting (pid: 762)
+[2021-11-08 11:27:11 +0000] [778] [INFO] Worker exiting (pid: 778)
+[2021-11-08 11:27:11 +0000] [779] [INFO] Worker exiting (pid: 779)
+[2021-11-08 14:27:11 +0300] [1459] [INFO] Booting worker with pid: 1459
+[2021-11-08 14:27:11 +0300] [1460] [INFO] Booting worker with pid: 1460
+[2021-11-08 14:27:11 +0300] [1461] [INFO] Booting worker with pid: 1461
+[2021-11-08 17:38:19 +0300] [587] [CRITICAL] WORKER TIMEOUT (pid:1459)
+[2021-11-08 17:38:19 +0300] [587] [CRITICAL] WORKER TIMEOUT (pid:1460)
+[2021-11-08 17:38:19 +0300] [587] [CRITICAL] WORKER TIMEOUT (pid:1461)
+[2021-11-08 14:38:19 +0000] [1460] [INFO] Worker exiting (pid: 1460)
+[2021-11-08 14:38:19 +0000] [1461] [INFO] Worker exiting (pid: 1461)
+[2021-11-08 14:38:19 +0000] [1459] [INFO] Worker exiting (pid: 1459)
+[2021-11-08 17:38:20 +0300] [3844] [INFO] Booting worker with pid: 3844
+[2021-11-08 17:38:20 +0300] [587] [WARNING] Worker with pid 1459 was terminated due to signal 9
+[2021-11-08 17:38:20 +0300] [587] [WARNING] Worker with pid 1460 was terminated due to signal 9
+[2021-11-08 17:38:20 +0300] [3894] [INFO] Booting worker with pid: 3894
+[2021-11-08 17:38:20 +0300] [3899] [INFO] Booting worker with pid: 3899
+[2021-11-08 17:32:58 +0000] [3894] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-08 17:32:58 +0000] [3894] [INFO] Worker exiting (pid: 3894)
+[2021-11-08 17:32:58 +0000] [3844] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-08 17:32:58 +0000] [3844] [INFO] Worker exiting (pid: 3844)
+[2021-11-08 17:32:58 +0000] [3899] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-08 17:32:58 +0000] [3899] [INFO] Worker exiting (pid: 3899)
+[2021-11-08 20:32:58 +0300] [8472] [INFO] Booting worker with pid: 8472
+[2021-11-08 20:32:58 +0300] [8474] [INFO] Booting worker with pid: 8474
+[2021-11-08 20:32:58 +0300] [8475] [INFO] Booting worker with pid: 8475
+[2021-11-08 21:44:35 +0000] [8472] [INFO] Worker exiting (pid: 8472)
+[2021-11-09 00:44:35 +0300] [587] [INFO] Handling signal: term
+[2021-11-08 21:44:35 +0000] [8474] [INFO] Worker exiting (pid: 8474)
+[2021-11-08 21:44:35 +0000] [8475] [INFO] Worker exiting (pid: 8475)
+[2021-11-09 00:44:35 +0300] [587] [WARNING] Worker with pid 8472 was terminated due to signal 15
+[2021-11-09 00:44:35 +0300] [587] [INFO] Shutting down: Master
+[2021-11-09 10:52:27 +0300] [513] [INFO] Starting gunicorn 20.1.0
+[2021-11-09 10:52:27 +0300] [513] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (513)
+[2021-11-09 10:52:27 +0300] [513] [INFO] Using worker: sync
+[2021-11-09 10:52:27 +0300] [753] [INFO] Booting worker with pid: 753
+[2021-11-09 10:52:28 +0300] [774] [INFO] Booting worker with pid: 774
+[2021-11-09 10:52:28 +0300] [781] [INFO] Booting worker with pid: 781
+[2021-11-09 13:54:09 +0300] [513] [CRITICAL] WORKER TIMEOUT (pid:753)
+[2021-11-09 13:54:09 +0300] [513] [CRITICAL] WORKER TIMEOUT (pid:774)
+[2021-11-09 13:54:09 +0300] [513] [CRITICAL] WORKER TIMEOUT (pid:781)
+[2021-11-09 10:54:09 +0000] [753] [INFO] Worker exiting (pid: 753)
+[2021-11-09 10:54:09 +0000] [774] [INFO] Worker exiting (pid: 774)
+[2021-11-09 10:54:09 +0000] [781] [INFO] Worker exiting (pid: 781)
+[2021-11-09 13:54:09 +0300] [1353] [INFO] Booting worker with pid: 1353
+[2021-11-09 13:54:09 +0300] [513] [WARNING] Worker with pid 781 was terminated due to signal 9
+[2021-11-09 13:54:09 +0300] [513] [WARNING] Worker with pid 774 was terminated due to signal 9
+[2021-11-09 13:54:09 +0300] [1354] [INFO] Booting worker with pid: 1354
+[2021-11-09 13:54:10 +0300] [1355] [INFO] Booting worker with pid: 1355
+[2021-11-09 16:54:02 +0300] [513] [INFO] Handling signal: term
+[2021-11-09 13:54:02 +0000] [1353] [INFO] Worker exiting (pid: 1353)
+[2021-11-09 13:54:02 +0000] [1354] [INFO] Worker exiting (pid: 1354)
+[2021-11-09 13:54:02 +0000] [1355] [INFO] Worker exiting (pid: 1355)
+[2021-11-09 16:54:03 +0300] [513] [INFO] Shutting down: Master
+[2021-11-10 09:48:42 +0300] [505] [INFO] Starting gunicorn 20.1.0
+[2021-11-10 09:48:42 +0300] [505] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (505)
+[2021-11-10 09:48:42 +0300] [505] [INFO] Using worker: sync
+[2021-11-10 09:48:42 +0300] [713] [INFO] Booting worker with pid: 713
+[2021-11-10 09:48:42 +0300] [743] [INFO] Booting worker with pid: 743
+[2021-11-10 09:48:42 +0300] [774] [INFO] Booting worker with pid: 774
+[2021-11-10 12:50:24 +0300] [505] [CRITICAL] WORKER TIMEOUT (pid:713)
+[2021-11-10 12:50:24 +0300] [505] [CRITICAL] WORKER TIMEOUT (pid:743)
+[2021-11-10 12:50:24 +0300] [505] [CRITICAL] WORKER TIMEOUT (pid:774)
+[2021-11-10 09:50:24 +0000] [713] [INFO] Worker exiting (pid: 713)
+[2021-11-10 09:50:24 +0000] [743] [INFO] Worker exiting (pid: 743)
+[2021-11-10 09:50:24 +0000] [774] [INFO] Worker exiting (pid: 774)
+[2021-11-10 12:50:24 +0300] [931] [INFO] Booting worker with pid: 931
+[2021-11-10 12:50:24 +0300] [505] [WARNING] Worker with pid 713 was terminated due to signal 9
+[2021-11-10 12:50:24 +0300] [505] [WARNING] Worker with pid 743 was terminated due to signal 9
+[2021-11-10 12:50:24 +0300] [932] [INFO] Booting worker with pid: 932
+[2021-11-10 12:50:24 +0300] [933] [INFO] Booting worker with pid: 933
+[2021-11-11 01:14:07 +0000] [933] [INFO] Worker exiting (pid: 933)
+[2021-11-11 01:14:07 +0000] [931] [INFO] Worker exiting (pid: 931)
+[2021-11-11 01:14:07 +0000] [932] [INFO] Worker exiting (pid: 932)
+[2021-11-11 04:14:07 +0300] [505] [INFO] Handling signal: term
+[2021-11-11 04:14:07 +0300] [505] [WARNING] Worker with pid 931 was terminated due to signal 15
+[2021-11-11 04:14:07 +0300] [505] [WARNING] Worker with pid 932 was terminated due to signal 15
+[2021-11-11 04:14:07 +0300] [505] [WARNING] Worker with pid 933 was terminated due to signal 15
+[2021-11-11 04:14:07 +0300] [505] [INFO] Shutting down: Master
+[2021-11-11 09:51:19 +0300] [546] [INFO] Starting gunicorn 20.1.0
+[2021-11-11 09:51:19 +0300] [546] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (546)
+[2021-11-11 09:51:19 +0300] [546] [INFO] Using worker: sync
+[2021-11-11 09:51:19 +0300] [760] [INFO] Booting worker with pid: 760
+[2021-11-11 09:51:19 +0300] [766] [INFO] Booting worker with pid: 766
+[2021-11-11 09:51:19 +0300] [771] [INFO] Booting worker with pid: 771
+[2021-11-11 12:53:03 +0300] [546] [CRITICAL] WORKER TIMEOUT (pid:760)
+[2021-11-11 12:53:03 +0300] [546] [CRITICAL] WORKER TIMEOUT (pid:766)
+[2021-11-11 12:53:03 +0300] [546] [CRITICAL] WORKER TIMEOUT (pid:771)
+[2021-11-11 09:53:03 +0000] [760] [INFO] Worker exiting (pid: 760)
+[2021-11-11 09:53:03 +0000] [766] [INFO] Worker exiting (pid: 766)
+[2021-11-11 09:53:03 +0000] [771] [INFO] Worker exiting (pid: 771)
+[2021-11-11 12:53:03 +0300] [842] [INFO] Booting worker with pid: 842
+[2021-11-11 12:53:03 +0300] [546] [WARNING] Worker with pid 766 was terminated due to signal 9
+[2021-11-11 12:53:03 +0300] [546] [WARNING] Worker with pid 771 was terminated due to signal 9
+[2021-11-11 12:53:03 +0300] [845] [INFO] Booting worker with pid: 845
+[2021-11-11 12:53:03 +0300] [846] [INFO] Booting worker with pid: 846
+[2021-11-11 09:55:41 +0000] [845] [INFO] Worker exiting (pid: 845)
+[2021-11-11 09:55:41 +0000] [842] [INFO] Worker exiting (pid: 842)
+[2021-11-11 12:55:41 +0300] [546] [INFO] Handling signal: term
+[2021-11-11 09:55:41 +0000] [846] [INFO] Worker exiting (pid: 846)
+[2021-11-11 12:55:41 +0300] [546] [WARNING] Worker with pid 842 was terminated due to signal 15
+[2021-11-11 12:55:41 +0300] [546] [WARNING] Worker with pid 845 was terminated due to signal 15
+[2021-11-11 12:55:42 +0300] [546] [INFO] Shutting down: Master
+[2021-11-11 12:55:45 +0300] [532] [INFO] Starting gunicorn 20.1.0
+[2021-11-11 12:55:45 +0300] [532] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (532)
+[2021-11-11 12:55:45 +0300] [532] [INFO] Using worker: sync
+[2021-11-11 12:55:45 +0300] [755] [INFO] Booting worker with pid: 755
+[2021-11-11 12:55:45 +0300] [766] [INFO] Booting worker with pid: 766
+[2021-11-11 12:55:45 +0300] [777] [INFO] Booting worker with pid: 777
+[2021-11-11 12:56:39 +0300] [532] [CRITICAL] WORKER TIMEOUT (pid:755)
+[2021-11-11 12:56:39 +0300] [532] [CRITICAL] WORKER TIMEOUT (pid:766)
+[2021-11-11 12:56:39 +0300] [532] [CRITICAL] WORKER TIMEOUT (pid:777)
+[2021-11-11 09:56:39 +0000] [755] [INFO] Worker exiting (pid: 755)
+[2021-11-11 09:56:39 +0000] [766] [INFO] Worker exiting (pid: 766)
+[2021-11-11 09:56:39 +0000] [777] [INFO] Worker exiting (pid: 777)
+[2021-11-11 12:56:39 +0300] [1549] [INFO] Booting worker with pid: 1549
+[2021-11-11 12:56:39 +0300] [532] [WARNING] Worker with pid 755 was terminated due to signal 9
+[2021-11-11 12:56:39 +0300] [532] [WARNING] Worker with pid 777 was terminated due to signal 9
+[2021-11-11 12:56:39 +0300] [1550] [INFO] Booting worker with pid: 1550
+[2021-11-11 12:56:39 +0300] [1551] [INFO] Booting worker with pid: 1551
+[2021-11-11 15:39:32 +0300] [532] [CRITICAL] WORKER TIMEOUT (pid:1549)
+[2021-11-11 15:39:33 +0300] [532] [CRITICAL] WORKER TIMEOUT (pid:1550)
+[2021-11-11 15:39:33 +0300] [532] [CRITICAL] WORKER TIMEOUT (pid:1551)
+[2021-11-11 12:39:33 +0000] [1551] [INFO] Worker exiting (pid: 1551)
+[2021-11-11 12:39:33 +0000] [1549] [INFO] Worker exiting (pid: 1549)
+[2021-11-11 12:39:33 +0000] [1550] [INFO] Worker exiting (pid: 1550)
+[2021-11-11 15:39:33 +0300] [12419] [INFO] Booting worker with pid: 12419
+[2021-11-11 15:39:33 +0300] [12420] [INFO] Booting worker with pid: 12420
+[2021-11-11 15:39:33 +0300] [12421] [INFO] Booting worker with pid: 12421
+[2021-11-11 14:24:09 +0000] [12421] [INFO] Worker exiting (pid: 12421)
+[2021-11-11 14:24:09 +0000] [12419] [INFO] Worker exiting (pid: 12419)
+[2021-11-11 17:24:09 +0300] [532] [INFO] Handling signal: term
+[2021-11-11 14:24:09 +0000] [12420] [INFO] Worker exiting (pid: 12420)
+[2021-11-11 17:24:09 +0300] [532] [WARNING] Worker with pid 12421 was terminated due to signal 15
+[2021-11-11 17:24:09 +0300] [532] [WARNING] Worker with pid 12419 was terminated due to signal 15
+[2021-11-11 17:24:09 +0300] [532] [INFO] Shutting down: Master
+[2021-11-12 12:10:40 +0300] [608] [INFO] Starting gunicorn 20.1.0
+[2021-11-12 12:10:40 +0300] [608] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (608)
+[2021-11-12 12:10:40 +0300] [608] [INFO] Using worker: sync
+[2021-11-12 12:10:40 +0300] [790] [INFO] Booting worker with pid: 790
+[2021-11-12 12:10:40 +0300] [798] [INFO] Booting worker with pid: 798
+[2021-11-12 12:10:40 +0300] [800] [INFO] Booting worker with pid: 800
+[2021-11-12 15:12:24 +0300] [608] [CRITICAL] WORKER TIMEOUT (pid:790)
+[2021-11-12 15:12:24 +0300] [608] [CRITICAL] WORKER TIMEOUT (pid:798)
+[2021-11-12 15:12:24 +0300] [608] [CRITICAL] WORKER TIMEOUT (pid:800)
+[2021-11-12 12:12:24 +0000] [790] [INFO] Worker exiting (pid: 790)
+[2021-11-12 12:12:24 +0000] [798] [INFO] Worker exiting (pid: 798)
+[2021-11-12 12:12:24 +0000] [800] [INFO] Worker exiting (pid: 800)
+[2021-11-12 15:12:24 +0300] [608] [WARNING] Worker with pid 798 was terminated due to signal 9
+[2021-11-12 15:12:24 +0300] [1607] [INFO] Booting worker with pid: 1607
+[2021-11-12 15:12:24 +0300] [1608] [INFO] Booting worker with pid: 1608
+[2021-11-12 15:12:24 +0300] [1609] [INFO] Booting worker with pid: 1609
+[2021-11-13 00:42:07 +0000] [1608] [INFO] Worker exiting (pid: 1608)
+[2021-11-13 03:42:07 +0300] [608] [INFO] Handling signal: term
+[2021-11-13 00:42:07 +0000] [1607] [INFO] Worker exiting (pid: 1607)
+[2021-11-13 03:42:07 +0300] [608] [WARNING] Worker with pid 1608 was terminated due to signal 15
+[2021-11-13 00:42:07 +0000] [1609] [INFO] Worker exiting (pid: 1609)
+[2021-11-13 03:42:07 +0300] [608] [INFO] Shutting down: Master
+[2021-11-13 10:59:01 +0300] [480] [INFO] Starting gunicorn 20.1.0
+[2021-11-13 10:59:01 +0300] [480] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (480)
+[2021-11-13 10:59:01 +0300] [480] [INFO] Using worker: sync
+[2021-11-13 10:59:01 +0300] [676] [INFO] Booting worker with pid: 676
+[2021-11-13 10:59:01 +0300] [696] [INFO] Booting worker with pid: 696
+[2021-11-13 10:59:01 +0300] [732] [INFO] Booting worker with pid: 732
+[2021-11-13 14:00:47 +0300] [480] [CRITICAL] WORKER TIMEOUT (pid:676)
+[2021-11-13 14:00:47 +0300] [480] [CRITICAL] WORKER TIMEOUT (pid:696)
+[2021-11-13 14:00:47 +0300] [480] [CRITICAL] WORKER TIMEOUT (pid:732)
+[2021-11-13 11:00:47 +0000] [676] [INFO] Worker exiting (pid: 676)
+[2021-11-13 11:00:47 +0000] [696] [INFO] Worker exiting (pid: 696)
+[2021-11-13 11:00:47 +0000] [732] [INFO] Worker exiting (pid: 732)
+[2021-11-13 14:00:47 +0300] [1335] [INFO] Booting worker with pid: 1335
+[2021-11-13 14:00:47 +0300] [480] [WARNING] Worker with pid 732 was terminated due to signal 9
+[2021-11-13 14:00:47 +0300] [480] [WARNING] Worker with pid 676 was terminated due to signal 9
+[2021-11-13 14:00:47 +0300] [1336] [INFO] Booting worker with pid: 1336
+[2021-11-13 14:00:47 +0300] [1337] [INFO] Booting worker with pid: 1337
+[2021-11-14 01:01:33 +0300] [480] [INFO] Handling signal: term
+[2021-11-13 22:01:33 +0000] [1336] [INFO] Worker exiting (pid: 1336)
+[2021-11-13 22:01:33 +0000] [1335] [INFO] Worker exiting (pid: 1335)
+[2021-11-13 22:01:33 +0000] [1337] [INFO] Worker exiting (pid: 1337)
+[2021-11-14 01:01:33 +0300] [480] [WARNING] Worker with pid 1335 was terminated due to signal 15
+[2021-11-14 01:01:33 +0300] [480] [WARNING] Worker with pid 1337 was terminated due to signal 15
+[2021-11-14 01:01:33 +0300] [480] [WARNING] Worker with pid 1336 was terminated due to signal 15
+[2021-11-14 01:01:33 +0300] [480] [INFO] Shutting down: Master
+[2021-11-14 11:02:52 +0300] [516] [INFO] Starting gunicorn 20.1.0
+[2021-11-14 11:02:52 +0300] [516] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (516)
+[2021-11-14 11:02:52 +0300] [516] [INFO] Using worker: sync
+[2021-11-14 11:02:52 +0300] [727] [INFO] Booting worker with pid: 727
+[2021-11-14 11:02:52 +0300] [750] [INFO] Booting worker with pid: 750
+[2021-11-14 11:02:52 +0300] [751] [INFO] Booting worker with pid: 751
+[2021-11-14 14:04:38 +0300] [516] [CRITICAL] WORKER TIMEOUT (pid:727)
+[2021-11-14 14:04:38 +0300] [516] [CRITICAL] WORKER TIMEOUT (pid:750)
+[2021-11-14 14:04:38 +0300] [516] [CRITICAL] WORKER TIMEOUT (pid:751)
+[2021-11-14 11:04:38 +0000] [727] [INFO] Worker exiting (pid: 727)
+[2021-11-14 11:04:38 +0000] [750] [INFO] Worker exiting (pid: 750)
+[2021-11-14 11:04:38 +0000] [751] [INFO] Worker exiting (pid: 751)
+[2021-11-14 14:04:38 +0300] [1371] [INFO] Booting worker with pid: 1371
+[2021-11-14 14:04:38 +0300] [516] [WARNING] Worker with pid 727 was terminated due to signal 9
+[2021-11-14 14:04:38 +0300] [516] [WARNING] Worker with pid 751 was terminated due to signal 9
+[2021-11-14 14:04:39 +0300] [1374] [INFO] Booting worker with pid: 1374
+[2021-11-14 14:04:39 +0300] [1376] [INFO] Booting worker with pid: 1376
+[2021-11-14 16:35:28 +0300] [516] [CRITICAL] WORKER TIMEOUT (pid:1371)
+[2021-11-14 16:35:28 +0300] [516] [CRITICAL] WORKER TIMEOUT (pid:1374)
+[2021-11-14 13:35:28 +0000] [1374] [INFO] Worker exiting (pid: 1374)
+[2021-11-14 16:35:28 +0300] [516] [CRITICAL] WORKER TIMEOUT (pid:1376)
+[2021-11-14 13:35:28 +0000] [1376] [INFO] Worker exiting (pid: 1376)
+[2021-11-14 13:35:28 +0000] [1371] [INFO] Worker exiting (pid: 1371)
+[2021-11-14 16:35:28 +0300] [516] [WARNING] Worker with pid 1371 was terminated due to signal 9
+[2021-11-14 16:35:28 +0300] [8068] [INFO] Booting worker with pid: 8068
+[2021-11-14 16:35:28 +0300] [8069] [INFO] Booting worker with pid: 8069
+[2021-11-14 16:35:28 +0300] [8070] [INFO] Booting worker with pid: 8070
+[2021-11-14 19:55:01 +0000] [8068] [INFO] Worker exiting (pid: 8068)
+[2021-11-14 22:55:01 +0300] [516] [INFO] Handling signal: term
+[2021-11-14 19:55:01 +0000] [8070] [INFO] Worker exiting (pid: 8070)
+[2021-11-14 19:55:01 +0000] [8069] [INFO] Worker exiting (pid: 8069)
+[2021-11-14 22:55:01 +0300] [516] [WARNING] Worker with pid 8070 was terminated due to signal 15
+[2021-11-14 22:55:01 +0300] [516] [INFO] Shutting down: Master
+[2021-11-15 10:26:49 +0300] [511] [INFO] Starting gunicorn 20.1.0
+[2021-11-15 10:26:49 +0300] [511] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (511)
+[2021-11-15 10:26:49 +0300] [511] [INFO] Using worker: sync
+[2021-11-15 10:26:49 +0300] [747] [INFO] Booting worker with pid: 747
+[2021-11-15 10:26:49 +0300] [768] [INFO] Booting worker with pid: 768
+[2021-11-15 10:26:49 +0300] [773] [INFO] Booting worker with pid: 773
+[2021-11-15 13:28:37 +0300] [511] [CRITICAL] WORKER TIMEOUT (pid:747)
+[2021-11-15 13:28:37 +0300] [511] [CRITICAL] WORKER TIMEOUT (pid:768)
+[2021-11-15 13:28:37 +0300] [511] [CRITICAL] WORKER TIMEOUT (pid:773)
+[2021-11-15 10:28:37 +0000] [747] [INFO] Worker exiting (pid: 747)
+[2021-11-15 10:28:37 +0000] [768] [INFO] Worker exiting (pid: 768)
+[2021-11-15 10:28:37 +0000] [773] [INFO] Worker exiting (pid: 773)
+[2021-11-15 13:28:37 +0300] [865] [INFO] Booting worker with pid: 865
+[2021-11-15 13:28:37 +0300] [511] [WARNING] Worker with pid 773 was terminated due to signal 9
+[2021-11-15 13:28:37 +0300] [511] [WARNING] Worker with pid 747 was terminated due to signal 9
+[2021-11-15 13:28:37 +0300] [866] [INFO] Booting worker with pid: 866
+[2021-11-15 13:28:37 +0300] [867] [INFO] Booting worker with pid: 867
+[2021-11-15 10:31:22 +0000] [866] [INFO] Worker exiting (pid: 866)
+[2021-11-15 13:31:22 +0300] [511] [INFO] Handling signal: term
+[2021-11-15 10:31:22 +0000] [867] [INFO] Worker exiting (pid: 867)
+[2021-11-15 10:31:22 +0000] [865] [INFO] Worker exiting (pid: 865)
+[2021-11-15 13:31:22 +0300] [511] [WARNING] Worker with pid 866 was terminated due to signal 15
+[2021-11-15 13:31:23 +0300] [511] [INFO] Shutting down: Master
+[2021-11-15 13:31:24 +0300] [475] [INFO] Starting gunicorn 20.1.0
+[2021-11-15 13:31:24 +0300] [475] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (475)
+[2021-11-15 13:31:24 +0300] [475] [INFO] Using worker: sync
+[2021-11-15 13:31:24 +0300] [674] [INFO] Booting worker with pid: 674
+[2021-11-15 13:31:24 +0300] [708] [INFO] Booting worker with pid: 708
+[2021-11-15 13:31:24 +0300] [738] [INFO] Booting worker with pid: 738
+[2021-11-15 13:53:55 +0300] [475] [CRITICAL] WORKER TIMEOUT (pid:674)
+[2021-11-15 13:53:55 +0300] [475] [CRITICAL] WORKER TIMEOUT (pid:708)
+[2021-11-15 10:53:55 +0000] [674] [INFO] Worker exiting (pid: 674)
+[2021-11-15 13:53:55 +0300] [475] [CRITICAL] WORKER TIMEOUT (pid:738)
+[2021-11-15 10:53:55 +0000] [708] [INFO] Worker exiting (pid: 708)
+[2021-11-15 10:53:55 +0000] [738] [INFO] Worker exiting (pid: 738)
+[2021-11-15 13:53:55 +0300] [1322] [INFO] Booting worker with pid: 1322
+[2021-11-15 13:53:55 +0300] [475] [WARNING] Worker with pid 738 was terminated due to signal 9
+[2021-11-15 13:53:55 +0300] [475] [WARNING] Worker with pid 708 was terminated due to signal 9
+[2021-11-15 13:53:55 +0300] [1323] [INFO] Booting worker with pid: 1323
+[2021-11-15 13:53:55 +0300] [1324] [INFO] Booting worker with pid: 1324
+[2021-11-15 10:57:49 +0000] [1323] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-15 10:57:49 +0000] [1323] [INFO] Worker exiting (pid: 1323)
+[2021-11-15 10:57:49 +0000] [1322] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-15 10:57:49 +0000] [1322] [INFO] Worker exiting (pid: 1322)
+[2021-11-15 10:57:49 +0000] [1324] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-15 10:57:49 +0000] [1324] [INFO] Worker exiting (pid: 1324)
+[2021-11-15 13:57:49 +0300] [2401] [INFO] Booting worker with pid: 2401
+[2021-11-15 13:57:50 +0300] [2406] [INFO] Booting worker with pid: 2406
+[2021-11-15 13:57:50 +0300] [2407] [INFO] Booting worker with pid: 2407
+[2021-11-15 10:58:10 +0000] [2401] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-15 10:58:10 +0000] [2401] [INFO] Worker exiting (pid: 2401)
+[2021-11-15 10:58:10 +0000] [2407] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-15 10:58:10 +0000] [2407] [INFO] Worker exiting (pid: 2407)
+[2021-11-15 10:58:10 +0000] [2406] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-15 10:58:10 +0000] [2406] [INFO] Worker exiting (pid: 2406)
+[2021-11-15 13:58:10 +0300] [2419] [INFO] Booting worker with pid: 2419
+[2021-11-15 13:58:10 +0300] [2420] [INFO] Booting worker with pid: 2420
+[2021-11-15 13:58:10 +0300] [2421] [INFO] Booting worker with pid: 2421
+[2021-11-15 10:58:31 +0000] [2419] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-15 10:58:31 +0000] [2419] [INFO] Worker exiting (pid: 2419)
+[2021-11-15 10:58:31 +0000] [2420] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-15 10:58:31 +0000] [2420] [INFO] Worker exiting (pid: 2420)
+[2021-11-15 10:58:31 +0000] [2421] [INFO] Worker reloading: /home/denis/PycharmProjects/testvpn/experement/experement/settings.py modified
+[2021-11-15 10:58:31 +0000] [2421] [INFO] Worker exiting (pid: 2421)
+[2021-11-15 13:58:31 +0300] [2445] [INFO] Booting worker with pid: 2445
+[2021-11-15 13:58:31 +0300] [2446] [INFO] Booting worker with pid: 2446
+[2021-11-15 13:58:31 +0300] [2445] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:31 +0300] [2445] [INFO] Worker exiting (pid: 2445)
+[2021-11-15 13:58:31 +0300] [2447] [INFO] Booting worker with pid: 2447
+[2021-11-15 13:58:31 +0300] [2446] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:31 +0300] [2446] [INFO] Worker exiting (pid: 2446)
+[2021-11-15 13:58:31 +0300] [475] [WARNING] Worker with pid 2446 was terminated due to signal 15
+[2021-11-15 13:58:31 +0300] [2447] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:31 +0300] [2447] [INFO] Worker exiting (pid: 2447)
+[2021-11-15 13:58:32 +0300] [2449] [INFO] Starting gunicorn 20.1.0
+[2021-11-15 13:58:32 +0300] [2449] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (2449)
+[2021-11-15 13:58:32 +0300] [2449] [INFO] Using worker: sync
+[2021-11-15 13:58:32 +0300] [2451] [INFO] Booting worker with pid: 2451
+[2021-11-15 13:58:32 +0300] [2452] [INFO] Booting worker with pid: 2452
+[2021-11-15 13:58:32 +0300] [2453] [INFO] Booting worker with pid: 2453
+[2021-11-15 13:58:32 +0300] [2451] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:32 +0300] [2451] [INFO] Worker exiting (pid: 2451)
+[2021-11-15 13:58:32 +0300] [2452] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:32 +0300] [2452] [INFO] Worker exiting (pid: 2452)
+[2021-11-15 13:58:32 +0300] [2453] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:32 +0300] [2453] [INFO] Worker exiting (pid: 2453)
+[2021-11-15 13:58:32 +0300] [2454] [INFO] Starting gunicorn 20.1.0
+[2021-11-15 13:58:32 +0300] [2454] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (2454)
+[2021-11-15 13:58:32 +0300] [2454] [INFO] Using worker: sync
+[2021-11-15 13:58:32 +0300] [2456] [INFO] Booting worker with pid: 2456
+[2021-11-15 13:58:33 +0300] [2457] [INFO] Booting worker with pid: 2457
+[2021-11-15 13:58:33 +0300] [2458] [INFO] Booting worker with pid: 2458
+[2021-11-15 13:58:33 +0300] [2456] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:33 +0300] [2456] [INFO] Worker exiting (pid: 2456)
+[2021-11-15 13:58:33 +0300] [2457] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:33 +0300] [2457] [INFO] Worker exiting (pid: 2457)
+[2021-11-15 13:58:33 +0300] [2458] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:33 +0300] [2458] [INFO] Worker exiting (pid: 2458)
+[2021-11-15 13:58:33 +0300] [2459] [INFO] Starting gunicorn 20.1.0
+[2021-11-15 13:58:33 +0300] [2459] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (2459)
+[2021-11-15 13:58:33 +0300] [2459] [INFO] Using worker: sync
+[2021-11-15 13:58:33 +0300] [2460] [INFO] Booting worker with pid: 2460
+[2021-11-15 13:58:33 +0300] [2461] [INFO] Booting worker with pid: 2461
+[2021-11-15 13:58:33 +0300] [2462] [INFO] Booting worker with pid: 2462
+[2021-11-15 13:58:34 +0300] [2460] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:34 +0300] [2460] [INFO] Worker exiting (pid: 2460)
+[2021-11-15 13:58:34 +0300] [2461] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:34 +0300] [2461] [INFO] Worker exiting (pid: 2461)
+[2021-11-15 13:58:34 +0300] [2462] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:34 +0300] [2462] [INFO] Worker exiting (pid: 2462)
+[2021-11-15 13:58:34 +0300] [2464] [INFO] Starting gunicorn 20.1.0
+[2021-11-15 13:58:34 +0300] [2464] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (2464)
+[2021-11-15 13:58:34 +0300] [2464] [INFO] Using worker: sync
+[2021-11-15 13:58:34 +0300] [2465] [INFO] Booting worker with pid: 2465
+[2021-11-15 13:58:34 +0300] [2466] [INFO] Booting worker with pid: 2466
+[2021-11-15 13:58:34 +0300] [2467] [INFO] Booting worker with pid: 2467
+[2021-11-15 13:58:34 +0300] [2465] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:34 +0300] [2465] [INFO] Worker exiting (pid: 2465)
+[2021-11-15 13:58:35 +0300] [2466] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:35 +0300] [2466] [INFO] Worker exiting (pid: 2466)
+[2021-11-15 13:58:35 +0300] [2467] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:35 +0300] [2467] [INFO] Worker exiting (pid: 2467)
+[2021-11-15 13:58:35 +0300] [2468] [INFO] Starting gunicorn 20.1.0
+[2021-11-15 13:58:35 +0300] [2468] [INFO] Listening at: unix:/home/denis/PycharmProjects/testvpn/experement/gunicorn/gunicorn.sock (2468)
+[2021-11-15 13:58:35 +0300] [2468] [INFO] Using worker: sync
+[2021-11-15 13:58:35 +0300] [2469] [INFO] Booting worker with pid: 2469
+[2021-11-15 13:58:35 +0300] [2470] [INFO] Booting worker with pid: 2470
+[2021-11-15 13:58:35 +0300] [2471] [INFO] Booting worker with pid: 2471
+[2021-11-15 13:58:35 +0300] [2469] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:35 +0300] [2469] [INFO] Worker exiting (pid: 2469)
+[2021-11-15 13:58:35 +0300] [2470] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:35 +0300] [2470] [INFO] Worker exiting (pid: 2470)
+[2021-11-15 13:58:35 +0300] [2471] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/denis/PycharmProjects/testvpn/venv/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/denis/PycharmProjects/testvpn/experement/experement/settings.py", line 157, in <module>
+    MEDE
+NameError: name 'MEDE' is not defined
+[2021-11-15 13:58:35 +0300] [2471] [INFO] Worker exiting (pid: 2471)

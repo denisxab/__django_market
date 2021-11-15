@@ -20,24 +20,26 @@ from django.http import HttpResponse
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include("myapp.urls")),
-    path('basket/', include("basket.urls")),
-    path('profile/', include("profile_user.urls")),
+		path('admin/', admin.site.urls),
+		path('', include("myapp.urls")),
+		path('basket/', include("basket.urls")),
+		path('profile/', include("profile_user.urls")),
 ]
 
 handler404 = lambda request, exception: HttpResponse(f"Станица не найдена {exception}", status=404)
 
 if settings.DEBUG:
-    # Для отладчика
-    import debug_toolbar
-
-    urlpatterns.append(
-        path('__debug__/', include(debug_toolbar.urls)),
-    )
-    # Для работы static
-    urlpatterns += static(
-        settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-    # Для работы  media
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+	# Для отладчика
+	import debug_toolbar
+	
+	urlpatterns.append(
+			path('__debug__/', include(debug_toolbar.urls)),
+	)
+	
+	# Для работы static
+	urlpatterns += static(settings.STATIC_URL,
+	                      document_root=settings.STATIC_ROOT)
+	
+	# Для работы  media
+	urlpatterns += static(settings.MEDIA_URL,
+	                      document_root=settings.MEDIA_ROOT)
