@@ -1,12 +1,18 @@
 {% load static %}
 <div class="head-box">
-    <h1 class="title-name">Привет авантюрист</h1>
+
+
+    <h1 class="title-name"> Привет авантюрист</h1>
+
+
     <div class="menu-box">
         <div class="menu-item">
             <a href="{% url 'main_lent' %}">Товары</a>
+
         </div>
         <div class="menu-item">
             <a href="{% url 'basket' %}">Корзина</a>
+
         </div>
 
 
@@ -38,4 +44,27 @@
         {% endif %}
 
     </div>
+
+    <div style="display: inline;  padding-top: 10px;margin-top: -20px;margin-right: 100px;float: right; ">
+
+        <a href="https://nginx.org/ru/docs/">
+            <img src="{% static 'myapp/img/logo.jpg' %}"
+                 style="width: 160px;height: 100px;  padding: 10px; border-radius: 40px"
+                 alt="">
+        </a>
+        <a href="https://docs.gunicorn.org/en/stable/">
+            <img src="{% static 'myapp/img/logo2.png' %}"
+                 style="width: 300px;height: 100px;  padding: 10px;  border-radius: 40px"
+                 alt="">
+        </a>
+
+        <a href="https://djbook.ru/rel3.0/">
+            <img src="{% static 'myapp/img/logo3.png' %}"
+                 style="width: 100px;height: 100px;  padding: 10px; border-radius: 40px"
+                 alt="">
+        </a>
+
+    </div>
+
+
 </div>

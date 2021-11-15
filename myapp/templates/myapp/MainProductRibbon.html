@@ -1,8 +1,15 @@
 {% extends "myapp/index_main.html" %}
 {% load static %}
 
+
+
 {% block BODY %}
     {{ block.super }}
+
+{#    {% debug %}#}
+
+
+
     <div class="list-product">
         {# Создаем ленту товаров #}
         {% for product_obj in MyPaginator %}

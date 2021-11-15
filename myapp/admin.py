@@ -22,7 +22,7 @@ class ProductAdmin(admin.ModelAdmin):
     def get_html_photo(self, obj):
         """ Если нужно выводить мениатруы фоток """
         if obj.image_product:
-            return mark_safe(f"<img src='{obj.image_product.url}' width=150 height=150>")
+            return mark_safe(f"<img src='{obj.image_product.url}' style='object-fit: contain;' width=150 height=150>")
 
     get_html_photo.short_description = "Миниатюра"
 

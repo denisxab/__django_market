@@ -80,20 +80,19 @@ WSGI_APPLICATION = 'experement.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-		# 'default': {
-		# 		'ENGINE'  : 'django.db.backends.postgresql_psycopg2',  # Адаптер
-		# 		'NAME'    : 'test_db',  # Имя Бд
-		# 		'USER'    : 'myname',  # Имя пользователя
-		# 		'PASSWORD': '123',  # Пароль пользователя
-		# 		'HOST'    : '127.0.0.1',  # Хост, мы будем использовать локальный сервер.
-		# 		'PORT'    : 5432,  # Порт для подключения. По умолчанию это 5432
-		# },
-		
 		'default': {
-				'ENGINE': 'django.db.backends.sqlite3',
-				'NAME'  : BASE_DIR / 'db.sqlite3',
-		}
-	
+				'ENGINE'  : 'django.db.backends.postgresql_psycopg2',  # Адаптер
+				'NAME'    : 'django_market',  # Имя Бд
+				'USER'    : 'postgres',  # Имя пользователя
+				'PASSWORD': '123',  # Пароль пользователя
+				'HOST'    : '127.0.0.1',  # Хост, мы будем использовать локальный сервер.
+				'PORT'    : 5432,  # Порт для подключения. По умолчанию это 5432
+		},
+		
+		# 'default': {
+		# 		'ENGINE': 'django.db.backends.sqlite3',
+		# 		'NAME'  : BASE_DIR / 'db.sqlite3',
+		# }
 }
 
 # Password validation
@@ -147,8 +146,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')  # Имя папки в корне
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 if DEBUG:
+	INSTALLED_APPS.append('livereload')
+	
 	INSTALLED_APPS.append('debug_toolbar')
 	INTERNAL_IPS = [
 			'127.0.0.1',
 	]
 	MIDDLEWARE.append('debug_toolbar.middleware.DebugToolbarMiddleware')
+	MIDDLEWARE.append('livereload.middleware.LiveReloadScript')

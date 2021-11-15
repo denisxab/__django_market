@@ -55,14 +55,16 @@ body {
 .head-box {
     overflow: hidden;
     width: 100%;
-    height: 160px;
+    min-height: 190px;
+    height: 2%;
+    max-height: 400px;
     background: var(--ThreeBg);
     padding: 30px;
 }
 
 
 .menu-box {
-
+    display: inline;
 }
 
 header {

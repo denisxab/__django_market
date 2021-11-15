@@ -2,6 +2,7 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
 # Create your models here.
+from django.template.defaultfilters import slugify
 from django.urls import reverse
 
 
@@ -26,16 +27,18 @@ class NameDataBase(models.Model):
 		verbose_name = "NameDataBase"  # Имя таблицы в единственном числе
 		verbose_name_plural = "NameDataBases"  # Имя таблицы во множественном числе
 		ordering = ["pk", ]  # Сортировать записи по указанным столбцам (можно указывать несколько столбцов)
-	
+
+
 def user_directory_path(instance, filename):
 	"""
 	Функция, которая будет сохранять файлы по своему пути
+	
+	instance =  Это экземпляр вашей модель
 	"""
-	
-	# путь MEDIA_ROOT/user_<id>/<filename>
-	return 'user_{0}/{1}'.format(instance.id, filename)
+	# Это путь `MEDIA_ROOT/user_{0}/{1}/{2}`
+	return 'user_{0}/{1}/{2}'.format(instance.__class__.__name__, slugify(instance.name_product), filename)
 
-	
+
 class Product(models.Model):
 	objects = None
 	name_product = models.CharField(max_length=200,
@@ -59,7 +62,7 @@ class Product(models.Model):
 	                                       verbose_name="Полное описание",
 	                                       help_text="Полное описание", )
 	
-	image_product = models.ImageField(upload_to=f"photo/%Y/%m/%d/",  # Шаблон имени
+	image_product = models.ImageField(upload_to=user_directory_path,  # f"photo/%Y/%m/%d/",  # Шаблон имени
 	                                  db_column="Фото товара",
 	                                  verbose_name="Фото товара",
 	                                  help_text="Фото товара", )
@@ -71,7 +74,6 @@ class Product(models.Model):
 	data_update = models.DateTimeField(db_column="Дата обновления",
 	                                   verbose_name="Дата обновления",
 	                                   auto_now=True)
-
 	
 	def __str__(self):
 		"""
